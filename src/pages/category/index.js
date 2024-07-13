@@ -86,7 +86,7 @@ export default function Categories({ categories }) {
 
 export async function getStaticProps({ params }) {
 
-    const res = await fetch(`https://backend.anddeals.com/categories?ordering=title`)
+    const res = await fetch(`https://backend.savestoday.com/categories?ordering=title`)
     const categories = await res.json()
   
     return {

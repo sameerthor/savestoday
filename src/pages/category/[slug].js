@@ -147,7 +147,7 @@ function Category({ category, categories }) {
 // revalidation is enabled and a new request comes in
 export async function getStaticProps({ params }) {
 
-    const res = await fetch(`https://backend.anddeals.com/categories/${params.slug}`)
+    const res = await fetch(`https://backend.savestoday.com/categories/${params.slug}`)
     const category = await res.json()
     if (category.detail) {
         return {
@@ -172,7 +172,7 @@ export async function getStaticProps({ params }) {
 // It may be called again, on a serverless function, if
 // the path has not been generated.
 export async function getStaticPaths() {
-    const res = await fetch('https://backend.anddeals.com/categories')
+    const res = await fetch('https://backend.savestoday.com/categories')
     const categories = await res.json()
 
     // Get the paths we want to pre-render based on categories

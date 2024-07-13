@@ -220,13 +220,13 @@ export default function Home({  storesOne,storesTwo,storesThree,storesFour }) {
     );
 }
 export async function getStaticProps({ params }) {
-    const resOne = await fetch(`https://backend.anddeals.com/stores/?home_options=1&ordering=-id`)
+    const resOne = await fetch(`https://backend.savestoday.com/stores/?home_options=1&ordering=-id`)
     const storesOne = await resOne.json()
-    const resTwo = await fetch(`https://backend.anddeals.com/stores/?home_options=2&ordering=-id`)
+    const resTwo = await fetch(`https://backend.savestoday.com/stores/?home_options=2&ordering=-id`)
     const storesTwo = await resTwo.json()
-    const resThree = await fetch(`https://backend.anddeals.com/stores/?home_options=3&ordering=-id`)
+    const resThree = await fetch(`https://backend.savestoday.com/stores/?home_options=3&ordering=-id`)
     const storesThree = await resThree.json()
-    const resFour = await fetch(`https://backend.anddeals.com/stores/?home_options=4&ordering=-id`)
+    const resFour = await fetch(`https://backend.savestoday.com/stores/?home_options=4&ordering=-id`)
     const storesFour = await resFour.json()
    
 

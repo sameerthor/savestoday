@@ -31,7 +31,7 @@ const nextConfig = {
   },
   rewrites: async () => [
     {
-      source: '/anddeals-sitemap.xml',
+      source: '/savestoday-sitemap.xml',
       destination: '/sitemap',
     }
   ]

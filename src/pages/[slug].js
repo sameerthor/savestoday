@@ -362,7 +362,7 @@ function Store({ store, relStores, simCat }) {
 // It may be called again, on a serverless function, if
 // revalidation is enabled and a new request comes in
 export async function getStaticProps({ params }) {
-    const res = await fetch('https://backend.anddeals.com/stores/' + params.slug)
+    const res = await fetch('https://backend.savestoday.com/stores/' + params.slug)
     var store = await res.json()
     store.coupon_set.map(coupon => {
         if (coupon.title.includes("$")) {
@@ -376,11 +376,11 @@ export async function getStaticProps({ params }) {
     }
     var simCat = [];
     if (store.category[0]) {
-        const resRelStores = await fetch(`https://backend.anddeals.com/stores/?category__id=${store.category[0].id}&ordering=-id`)
+        const resRelStores = await fetch(`https://backend.savestoday.com/stores/?category__id=${store.category[0].id}&ordering=-id`)
         var relStores = await resRelStores.json()
         relStores = _.shuffle(relStores).slice(0, 12)
         if (relStores.length <= 3) {
-            const rescat = await fetch(`https://backend.anddeals.com/categories/?limit=4&offset=${Math.ceil(parseInt(store.category[0].id) / 4)}`)
+            const rescat = await fetch(`https://backend.savestoday.com/categories/?limit=4&offset=${Math.ceil(parseInt(store.category[0].id) / 4)}`)
             simCat = await rescat.json()
 
         }
@@ -405,7 +405,7 @@ export async function getStaticProps({ params }) {
 // It may be called again, on a serverless function, if
 // the path has not been generated.
 export async function getStaticPaths() {
-    const res = await fetch('https://backend.anddeals.com/stores/')
+    const res = await fetch('https://backend.savestoday.com/stores/')
     const stores = await res.json()
 
     // Get the paths we want to pre-render based on posts
