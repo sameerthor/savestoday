@@ -11,8 +11,8 @@ export default function Home({  storesOne,storesTwo,storesThree,storesFour }) {
 
         <>
             <NextSeo
-                title="Anddeals - Free Verified Coupons, Discount Codes, & Deals"
-                description="Find the latest coupons and promo codes for your favorite stores. Our constantly updated discount codes and deals help you get instant savings. We have top stores, exclusive discounts, and verified codes for all your shopping needs!"
+                title="Savestoday - Best Coupon Code, Discount & Promo Codes 2024"
+                description="Savestoday brings you a wide range of coupons and promo codes from top brands. Start looking for the best discount codes, free shipping offers, and unbeatable deals all at one place. Checkout our exclusive coupon codes now."
             />
             <section className="homeBanner">
                 <div className="container">

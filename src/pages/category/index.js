@@ -8,8 +8,8 @@ export default function Categories({ categories }) {
     return (
         <>
         <NextSeo
-                title="Category - Anddeals"
-                description="Anddeals offers an extensive list of coupons and promo codes from top brands. Discover exclusive discount codes, free shipping offers, and unbeatable deals - all at one place. We are here to help you save money on everything you need."
+                title="Category - Savestoday"
+                description="Find the exclusive coupons and promo codes for your favorite brands. We have updated discount codes and deals to help you get amazing discounts and deals. Shop from a wide range stores and apply our exclusive discounts, and verified codes to save huge."
             />
             <section className="allCategories">
                 <div className="container">
