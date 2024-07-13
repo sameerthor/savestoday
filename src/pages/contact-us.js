@@ -15,7 +15,7 @@ export default function contact({ stores }) {
                 <div className="container">
                     <div className="row">
                         <div className="col-12 p-0">
-                            <h1 className="text-center">Contact anddeals</h1>
+                            <h1 className="text-center">Contact savestoday</h1>
                             <form action="#NoWhere" className="contactForm row">
                                 <div className="row p-0 inputGroup">
                                     <div className="col-md-6 mb-3">

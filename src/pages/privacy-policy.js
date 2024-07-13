@@ -83,7 +83,7 @@ export default function privacyPolicy({ stores }) {
 
                                 </h2>
                              <p>
-                             If you have any questions about our privacy policy, the practices of Anddeals, or your dealings with our website, please contact us at <a href="https://anddeals.com/contact-us/">https://anddeals.com/contact-us/</a>
+                             If you have any questions about our privacy policy, the practices of Anddeals, or your dealings with our website, please contact us at <a href="https://savestoday.com/contact-us/">https://savestoday.com/contact-us/</a>
                              </p>
                              <p></p>
                         </div>

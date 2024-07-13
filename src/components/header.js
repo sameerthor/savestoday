@@ -12,7 +12,7 @@ export default function Header() {
     const [filterdata, setFilterdata] = useState([]);
     useEffect(() => {
 
-        axios.get('https://backend.anddeals.com/store-search/')
+        axios.get('https://backend.savestoday.com/store-search/')
             .then(function (response) {
                 var d = response.data.map(item => { return { key: item.slug, value: item.title } })
                 setFilterdata(d);
@@ -27,7 +27,7 @@ export default function Header() {
             <nav className="navbar navbar-expand-lg pageHeader">
                 <div className="container-fluid">
                     <Link className="navbar-brand" prefetch={false} href="/">
-                        saves<span>Today</span>
+                        Saves<span>Today</span>
                     </Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width={18} height={18} fill="#fff">

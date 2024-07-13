@@ -274,6 +274,7 @@ body {
   font-size: .88rem;
   font-weight: 500;
   line-height: 1.4;
+  line-clamp: 1;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 1;
   overflow: hidden;
@@ -562,6 +563,7 @@ body {
 
 .storesidebar .sidebarWidget .storeName {
   display: -webkit-box;
+  line-clamp: 2;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
@@ -576,6 +578,7 @@ body {
   font-weight: 500;
   font-size: .85rem;
   display: -webkit-box;
+  line-clamp: 1;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 1;
   overflow: hidden;
@@ -913,6 +916,7 @@ a.verifiedCoupon span {
   font-size: .85rem;
   display: -webkit-box;
   -webkit-box-orient: vertical;
+  line-clamp: 1;
   -webkit-line-clamp: 1;
   overflow: hidden;
   text-decoration: underline;
