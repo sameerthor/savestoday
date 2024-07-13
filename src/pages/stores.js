@@ -15,8 +15,8 @@ export default function Stores({ stores }) {
     return (
         <>
             <NextSeo
-                title="Stores 2024 - Anddeals"
-                description="Anddeals brings the latest coupons & promo codes for thousands of stores. Save big on fashion, electronics, travel, and more. Get up to 40% Off discount codes for guaranteed savings. Enjoy Free Shipping Offers."
+                title="Stores 2024 - Savestoday"
+                description="Savestoday offers the best coupons & promo codes for thousands of stores. Save big on fashion, electronics, travel, and more. Get up to 40% Off discount codes for guaranteed savings. Enjoy Free Shipping Offers."
             />
             <section className="allStorePage">
                 <div className="container">
