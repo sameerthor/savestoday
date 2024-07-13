@@ -11,7 +11,7 @@ export default function Footer() {
                     <div className="row text-md-start mt-5">
                         <div className="col-lg-3 col-md-6 mb-3 footerColumn">
                             <a href="/" className="footerLogo pb-2" title="anddeals.com">
-                                saves<span>Today</span>
+                                Saves<span>Today</span>
                             </a>
                             <p className="aboutUs">
                                 {" "}
