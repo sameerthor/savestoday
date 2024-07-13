@@ -220,7 +220,7 @@ export default function Home({ stores }) {
     );
 }
 export async function getStaticProps({ params }) {
-    const res = await fetch(`https://backend.anddeals.com/stores?ordering=title`)
+    const res = await fetch(`https://backend.savestoday.com/stores?ordering=title`)
     const stores = await res.json()
 
     return {

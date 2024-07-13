@@ -12,7 +12,7 @@ export default function Header() {
     const [filterdata, setFilterdata] = useState([]);
     useEffect(() => {
 
-        axios.get('https://backend.anddeals.com/store-search/')
+        axios.get('https://backend.savestoday.com/store-search/')
             .then(function (response) {
                 var d = response.data.map(item => { return { key: item.slug, value: item.title } })
                 setFilterdata(d);

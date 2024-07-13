@@ -47,7 +47,7 @@ export default function cookiePolicy({ stores }) {
                                 Anddeals reserves the right to amend or revise this cookie policy at any time. Your continued use of our website after any changes to this policy signifies your acceptance of the revised policy. 
                             </p>
                             <p>
-                                For further inquiries regarding our cookie policy, kindly reach out to us at <a href="https://anddeals.com/contact-us">https://anddeals.com/contact-us</a>
+                                For further inquiries regarding our cookie policy, kindly reach out to us at <a href="https://savestoday.com/contact-us">https://savestoday.com/contact-us</a>
                             </p>
                         </div>
                     </div>

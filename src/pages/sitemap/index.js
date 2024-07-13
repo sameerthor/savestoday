@@ -15,17 +15,17 @@ const createSitemap = (urlList) =>
 export async function getServerSideProps({ res, req }) {
 
 
-    var urlList = [{ url: "https://www.anddeals.com" }, { url: "https://www.anddeals.com/about" }, { url: "https://www.anddeals.com/category" }, { url: "https://www.anddeals.com/contact-us" }, { url: "https://www.anddeals.com/cookie-policy" }, { url: "https://www.anddeals.com/faqs" }, { url: "https://www.anddeals.com/privacy-policy" }, { url: "https://www.anddeals.com/stores" }, { url: "https://www.anddeals.com/terms-of-use" }]
-    const result = await fetch('https://backend.anddeals.com/stores/')
+    var urlList = [{ url: "https://www.savestoday.com" }, { url: "https://www.savestoday.com/about" }, { url: "https://www.savestoday.com/category" }, { url: "https://www.savestoday.com/contact-us" }, { url: "https://www.savestoday.com/cookie-policy" }, { url: "https://www.savestoday.com/faqs" }, { url: "https://www.savestoday.com/privacy-policy" }, { url: "https://www.savestoday.com/stores" }, { url: "https://www.savestoday.com/terms-of-use" }]
+    const result = await fetch('https://backend.savestoday.com/stores/')
     const stores = await result.json()
     stores.forEach(element => {
-        urlList.push({ url: "https://www.anddeals.com/" + element.slug, last_mod: element.last_mod, slug: 1,image:element.image })
+        urlList.push({ url: "https://www.savestoday.com/" + element.slug, last_mod: element.last_mod, slug: 1,image:element.image })
     });
 
-    const resultCat = await fetch('https://backend.anddeals.com/categories/')
+    const resultCat = await fetch('https://backend.savestoday.com/categories/')
     const categories = await resultCat.json()
     categories.forEach(element => {
-        urlList.push({ url: "https://www.anddeals.com/category/" + element.slug, slug: 0 })
+        urlList.push({ url: "https://www.savestoday.com/category/" + element.slug, slug: 0 })
     });
 
     const sitemap = createSitemap(urlList);

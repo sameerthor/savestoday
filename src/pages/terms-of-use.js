@@ -77,7 +77,7 @@ export default function termsOfUse({ stores }) {
                                 Anddeals reserves the right to modify or revise these terms of use at any time. You are responsible for periodically reviewing the Terms of Use. Your continued use of our website after any changes to these terms constitutes your acceptance of the revised terms.
                             </p>
                             <p>
-                                By using the Anddeals website, you signify your agreement to these terms of use. If you do not agree to these terms and conditions, please do not use our website. If you have any questions about these terms, please contact us at  <a href="https://anddeals.com/contact-us.">https://anddeals.com/contact-us.</a>
+                                By using the Anddeals website, you signify your agreement to these terms of use. If you do not agree to these terms and conditions, please do not use our website. If you have any questions about these terms, please contact us at  <a href="https://savestoday.com/contact-us.">https://savestoday.com/contact-us.</a>
                             </p>
                         </div>
                     </div>
