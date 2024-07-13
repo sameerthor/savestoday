@@ -10,11 +10,13 @@ import Footer from "@/components/footer";
 
 export default function App({ Component, pageProps }) {
   useEffect(() => {
-   window.bootstrap= require("bootstrap/dist/js/bootstrap.bundle.min.js");
+    window.bootstrap = require("bootstrap/dist/js/bootstrap.bundle.min.js");
   }, []);
   return (
     <main>
-          <Head><style>{dom.css()}</style></Head>
+      <Head>
+        <meta name="robots" content="noindex" />
+        <style>{dom.css()}</style></Head>
 
       <Header />
       <Component {...pageProps} />
