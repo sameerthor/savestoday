@@ -92,7 +92,7 @@
     border: none;
     outline: none;
     font-weight: 500;
-    background-color: #2f3c97;
+    background-color: #f05f4a;
     color: #fff;
     display: inline-block;
     border-radius: 4px;
@@ -180,7 +180,7 @@
 }
 .favDeals .dealBox .dealBtn{
     border-radius: 4px;
-    background-color: #e5fff5;
+    background-color: #f0604a18;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -190,7 +190,7 @@
     margin: auto;
     font-size: 13px;
     font-weight: bold;
-    color: #2f3c97;
+    color: #f0604a;
     text-align: center;
     padding: .6rem 1rem;
     width: 90%;
@@ -309,6 +309,7 @@
  }
  .trandingDeals .trandingDealbox .dealInfo p{
    display: -webkit-box;
+   line-clamp: 2;
    -webkit-line-clamp: 2;
    -webkit-box-orient: vertical;
    overflow: hidden;
@@ -357,7 +358,7 @@
     font-size: .9rem;
     letter-spacing: .5px;
     padding: .5rem 1rem;
-    background-color: #2f3c97;
+    background-color: #f05f4a;
     border: none;
     color: #fff;
     letter-spacing: .5px;
@@ -396,7 +397,7 @@
    padding: .65rem 0;
    border-top: 1px solid #e2e2e2;
    border-bottom: none;
-   background-color: rgba(239, 246, 255);
+   background-color: #f0604a18;
    width: 100%;
   }
   .popularSection .popularBox{
@@ -413,8 +414,8 @@
   }
   .popularStore .dealCount span{
     text-align: center;
-    color:  rgba(37, 99, 235);
-    font-weight: 500;
+    color: #f0604a;
+    font-weight: 600;
     letter-spacing: .5px;
     font-size: .85rem;
    }

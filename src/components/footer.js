@@ -11,15 +11,11 @@ export default function Footer() {
                     <div className="row text-md-start mt-5">
                         <div className="col-lg-3 col-md-6 mb-3 footerColumn">
                             <a href="/" className="footerLogo pb-2" title="anddeals.com">
-                                and<span>Deals</span>
+                                saves<span>Today</span>
                             </a>
                             <p className="aboutUs">
                                 {" "}
-                                andDeals.com offers exclusive discounts and deals on a wide range of
-                                products and services. Discover unbeatable savings on electronics,
-                                Google, home goods, and more. Shop smarter and save more with our
-                                curated selection of top offers, ensuring you get the best value every
-                                time you visit.
+                                Explore exclusive discounts and deals at SavesToday.com, where you can find incredible savings on a wide range of products and services. From electronics and Google products to home goods and more, we offer unbeatable value on top offers. Shop smarter and save more with our curated selection, ensuring you get the best deals every time you visit.
                             </p>
                             <div className="footerSocialLinks">
                                 <a href="#" title="Visit our Facebook Page">
@@ -118,7 +114,7 @@ export default function Footer() {
                     </div>
                     <div className="row copyRightText">
                         <p className="lovetext">
-                            © 2024 <a href="/" title="anddeals.com">andDeals.com</a> Made in London with love ❤️.
+                            © 2024 <a href="/" title="savestoday.com">savesToday.com</a> Made in London with love ❤️.
                             andDeals is operated by andDeals IT Desk a company registered in the
                             United Kingdom. Company No: XYZABC123. ICO: GFDG2323.
                         </p>

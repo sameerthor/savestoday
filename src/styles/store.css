@@ -300,8 +300,7 @@ body {
   justify-content: center;
   border-radius: 1.76rem;
   color: #fff;
-  /* background: linear-gradient(45deg, #ed7430, #ff9a61); */
-  background-color: #486ab1;
+  background-color: #26a59a;
   letter-spacing: .5px;
   cursor: pointer;
   text-transform: uppercase;
@@ -315,7 +314,7 @@ body {
 }
 
 .storBox .couponItem .couponBox .couponBtn a:hover, .storBox .couponItem .couponBox .couponBtn button:hover {
-  background: linear-gradient(45deg, #ff9a61, #ed7430);
+  background: linear-gradient(45deg, #f45a52, #ed7430);
 }
 
 .storBox .couponItem .couponBox .couponBtn.getCode a, .storBox .couponItem .couponBox .couponBtn.getCode button{
@@ -1039,7 +1038,7 @@ a.verifiedCoupon span {
   max-width: 98%;
   outline: none;
   border: none;
-  background-color: #2f3c97;
+  background-color: #26a59a;
   color: #fff;
   font-weight: 500;
   padding: .6rem 1rem;
