@@ -293,7 +293,7 @@ function Store({ store, relStores, simCat }) {
                         <div className="col-md-7 p-0">
                             <div className="subscribeImg">
                                 <Image
-                                    height={100} quality={80} width={100} src="/images/subscribe-SavesToday.png" loading="lazy" alt="subscribe" />
+                                    height={100} quality={80} width={100} src="/images/subscribe-andDeals.png" loading="lazy" alt="subscribe" />
                                 <h4>Subscibe to get hot 🔥 deals &amp; daily discount coupons.</h4>
                             </div>
                         </div>

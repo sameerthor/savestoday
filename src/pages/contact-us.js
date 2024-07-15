@@ -11,7 +11,7 @@ export default function contact({ stores }) {
                 description="Find the latest coupons and promo codes for your favorite stores. Our constantly updated discount codes and deals help you get instant savings. We have top stores, exclusive discounts, and verified codes for all your shopping needs!"
             />
             {/* ========privacy policy========= */}
-            <section className="contactBox" style={{ backgroundImage: (`url(https://tax2win.in/assets-new/img/ca-assisted/banner-element.png)`) }}>
+            <section className="contactBox" style={{ backgroundImage: (`/images/banner-contact.webp`) }}>
                 <div className="container">
                     <div className="row">
                         <div className="col-12 p-0">
