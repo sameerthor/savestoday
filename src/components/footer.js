@@ -10,11 +10,8 @@ export default function Footer() {
                 <div className="container p-4">
                     <div className="row text-md-start mt-5">
                         <div className="col-lg-3 col-md-6 mb-3 footerColumn">
-<<<<<<< HEAD
                             <a href="/" className="footerLogo pb-2" title="SavesToday.com">
-=======
                             <a href="/" className="footerLogo pb-2" title="Savestoday.com">
->>>>>>> b47fdb113743a54a258a5174793faa9bb1604f56
                                 Saves<span>Today</span>
                             </a>
                             <p className="aboutUs">
