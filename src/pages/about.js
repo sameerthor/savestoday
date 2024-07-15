@@ -15,17 +15,28 @@ export default function about({ stores }) {
                 <div className="container">
                     <div className="row">
                         <div class="col-12">
+<<<<<<< HEAD
                             <h1 class="text-center"> About SavesToday</h1>
                             <p>
                                 Welcome to SavesToday, your go-to destination for the best deals and coupons. We believe everyone deserves to save money; therefore we have brought together all the amazing deals and coupons available on the web. On our platform, you will find great ways to grab incredible discounts on a broad range of products and services. Browse our website to discover the latest deals, promo codes, and discounts. 
                             </p>
                             <p>
                                 Join us at SavesToday and start saving money today! 
+=======
+                            <h1 class="text-center"> Savestoday About Us </h1>
+                            <p>
+                                Welcome to the world of Savestoday! 
+                            </p>
+                            <p>
+                                At Savestoday, we are dedicated to finding the best coupons, discount codes, and deals. We help you save money and make the most of your hard-earned cash. As a reputable online coupon and deals platform, we believe that everyone should have access to fantastic savings, regardless of what they are buying. Savestoday is the ultimate destination for daily savings!  
+>>>>>>> b47fdb113743a54a258a5174793faa9bb1604f56
                             </p>
                             <h2>
-                                Our Mission
+                                Our Company Background
                             </h2>
+                            
                             <p>
+<<<<<<< HEAD
                                 Our mission is simple: to provide a user-friendly platform where you can discover exclusive coupons and offers from your favorite online stores. We aim to help our customers save money and make smart purchasing decisions. We understand that saving money is important to you in today’s economy, and that’s why we strive to provide the most up-to-date and exclusive deals on a wide range of products and services. SavesToday helps you score the best deals and discounts on electronics, fashion, travel, and anything in between.
                             </p>
                             <p>
@@ -69,6 +80,25 @@ export default function about({ stores }) {
                             <p>
                                 Thank you for choosing SavesToday as your trusted source for all things coupons and deals!
 
+=======
+                            Our story began when the founders of Savestoday recognized the growing need for a one-stop shop for the best coupons, discount codes, and deals across a wide range of products and services. We understand how challenging it may be for buyers to spend hours scouring the internet in search of valuable savings. That's why we created Savestoday, a user-friendly website where you can simply search and enjoy the best deals. 
+
+                            </p>
+                            <p>
+                            Today, our team of deal hunters works tirelessly to search the web and collaborate with the top brands, retailers, and service providers. We are continually updating our huge coupon database so that you have access to the latest money-saving offers. Whether you're shopping for clothes, booking a flight, or ordering food from a restaurant, Savestoday offers unbeatable savings on all of your purchases. 
+
+                            </p>
+                           
+                            <p>
+                            One of the things that distinguishes Savestoday from the competition is our commitment to curation. We do not simply publish any coupon we find on our website. Instead, we check and validate each coupon to ensure it is worth your time. Additionally, our team brings the updated and verified coupon codes, so you can be assured that you’re getting the best savings possible. We are constantly seeking new ways to enhance your shopping experience by expanding our coupon selection. 
+
+                            </p>
+                            <p>
+                                 We also pride ourselves on our user-friendly platform. We know how hard it can be to scroll through countless deal and coupon code pages. To make things simpler for you, we‘ve designed Savestoday to be intuitive and simple to use. Whether you're shopping on your desktop or your smartphone, you can easily grab the deals you're looking for. 
+                            </p>
+                            <p>
+                                 Let's save some money! Join Savestoday now to start saving big on all of your favourite products and services.
+>>>>>>> b47fdb113743a54a258a5174793faa9bb1604f56
                             </p>
                         </div>
                     </div>

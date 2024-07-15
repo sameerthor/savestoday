@@ -44,7 +44,11 @@ export default function cookiePolicy({ stores }) {
                                 Changes To Cookie Policy
                             </h2>
                             <p>
+<<<<<<< HEAD
                                 SavesToday reserves the right to amend or revise this cookie policy at any time. Your continued use of our website after any changes to this policy signifies your acceptance of the revised policy. 
+=======
+                            SavesToday reserves the right to amend or revise this cookie policy at any time. Your continued use of our website after any changes to this policy signifies your acceptance of the revised policy. 
+>>>>>>> b47fdb113743a54a258a5174793faa9bb1604f56
                             </p>
                             <p>
                                 For further inquiries regarding our cookie policy, kindly reach out to us at <a href="https://savestoday.com/contact-us">https://savestoday.com/contact-us</a>

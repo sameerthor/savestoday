@@ -19,8 +19,8 @@ export default function Home({  storesOne,storesTwo,storesThree,storesFour }) {
                     <div className="banner-slider carousel-wrapper">
                         <Carousel showThumbs={false} infiniteLoop={true} showStatus={false}>
                             <div className="carousel-slide">
-                                <a href="/udemy">
-                                    <Image src="/images/udemy-banner.png" priority={true} quality={1} width={0}
+                                <a href="/">
+                                    <img src="/images/slider-1.png"  blurDataURL={'/images/slider-1.png'}  placeholder="blur" priority={true} quality={1} width={0}
                                         height={0}
                                         sizes="100vw"
                                         style={{ width: '100%', height: 'auto' }} alt="" />
@@ -28,24 +28,24 @@ export default function Home({  storesOne,storesTwo,storesThree,storesFour }) {
                                         <div class="overlay"></div>
                                         
                                 </a>
-                                <a href="/reebok">    
-                                    <Image src="/images/reebok-banner.png" priority={true} quality={1} width={0}
+                                <a href="/">    
+                                    <Image src="/images/slider-2.png" priority={true} quality={1} width={0}
                                         height={0}
                                         sizes="100vw"
                                         style={{ width: '100%', height: 'auto' }} alt="" />
                                         <span className="sliderName">Reebok</span>
                                         <div class="overlay"></div>
                                 </a>
-                                <a href="/category/fashion-accessories">
-                                    <Image src="/images/fashion-banner.png" priority={true} quality={1} width={0}
+                                <a href="/">
+                                    <Image src="/images/slider-3.png" priority={true} quality={1} width={0}
                                         height={0}
                                         sizes="100vw"
                                         style={{ width: '100%', height: 'auto' }} alt="" />
                                         <span className="sliderName">Fashion</span>
                                         <div class="overlay"></div>
                                 </a>
-                                <a href="/dominos">
-                                    <Image src="/images/pizza-banner.png" priority={true} quality={1} width={0}
+                                <a href="/">
+                                    <Image src="/images/slider-4.png" priority={true} quality={1} width={0}
                                         height={0}
                                         sizes="100vw"
                                         style={{ width: '100%', height: 'auto' }} alt="" />
