@@ -7,7 +7,7 @@ export default function contact({ stores }) {
     return (
         <>
             <NextSeo
-                title="Anddeals - Free Verified Coupons, Discount Codes, & Deals"
+                title="SavesToday - Free Verified Coupons, Discount Codes, & Deals"
                 description="Find the latest coupons and promo codes for your favorite stores. Our constantly updated discount codes and deals help you get instant savings. We have top stores, exclusive discounts, and verified codes for all your shopping needs!"
             />
             {/* ========privacy policy========= */}

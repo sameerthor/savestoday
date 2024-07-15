@@ -7,7 +7,7 @@ export default function faqs({ stores }) {
     return (
         <>
             <NextSeo
-                title="Anddeals - Free Verified Coupons, Discount Codes, & Deals"
+                title="SavesToday - Free Verified Coupons, Discount Codes, & Deals"
                 description="Find the latest coupons and promo codes for your favorite stores. Our constantly updated discount codes and deals help you get instant savings. We have top stores, exclusive discounts, and verified codes for all your shopping needs!"
             />
             {/* ========privacy policy========= */}
@@ -45,7 +45,7 @@ export default function faqs({ stores }) {
                             Another effective way to find coupon codes is to sign up for newsletters from your favorite stores. Retailers often send out exclusive discount codes and promotions to their email subscribers. Additionally, you can follow your favorite stores on social media platforms like Facebook, Twitter, and Instagram, where they may share vouchers and special offers with their followers.
                         </p>
                         <p>
-                            If you're looking for a more comprehensive approach to finding promotional codes, consider using coupon websites such as Anddeals. Coupon websites collect codes from a wide range of retailers, making it easy to search for discounts across multiple stores.
+                            If you're looking for a more comprehensive approach to finding promotional codes, consider using coupon websites such as SavesToday. Coupon websites collect codes from a wide range of retailers, making it easy to search for discounts across multiple stores.
                         </p>
                         <h2>
                             Can I Use Multiple Coupon Codes On The Same Order?
@@ -72,16 +72,16 @@ export default function faqs({ stores }) {
                             <li>Contact the retailer’s customer service if you continue to have issues with the code.</li>
                         </ul>
                         <h2>
-                            What Kind Of Coupons & Deals Can I Find On Anddeals?
+                            What Kind Of Coupons & Deals Can I Find On SavesToday?
                         </h2>
                         <p>
-                            Anddeals is your one-stop shop for online savings with a variety of top coupons and deals across a wide range of categories. Fashionistas can find discounts on trendy clothing and accessories from popular stores. Tech enthusiasts can grab deals on the latest gadgets and electronics. Anddeals have coupons for travel websites, hotels, or even outdoor experiences. Here, you’ll get deals and offers on almost everything including homeware, furniture, and everyday essentials.
+                            SavesToday is your one-stop shop for online savings with a variety of top coupons and deals across a wide range of categories. Fashionistas can find discounts on trendy clothing and accessories from popular stores. Tech enthusiasts can grab deals on the latest gadgets and electronics. SavesToday have coupons for travel websites, hotels, or even outdoor experiences. Here, you’ll get deals and offers on almost everything including homeware, furniture, and everyday essentials.
                         </p>
                         <h2>
-                            Is There A Fee To Use Anddeals?
+                            Is There A Fee To Use SavesToday?
                         </h2>
                         <p>
-                            Anddeals is completely free to use. We make money through affiliate commissions from stores when someone makes a purchase using a link from Anddeals. When you click a link from Anddeals to a store’s website and make a purchase, Anddeals earns a commission. This affiliate commission structure of Anddeals helps you find the best deals and coupons free of cost.
+                            SavesToday is completely free to use. We make money through affiliate commissions from stores when someone makes a purchase using a link from SavesToday. When you click a link from SavesToday to a store’s website and make a purchase, SavesToday earns a commission. This affiliate commission structure of SavesToday helps you find the best deals and coupons free of cost.
                         </p>
                         <h2>
                             Can I Get A Refund If I Use A Promo Code?

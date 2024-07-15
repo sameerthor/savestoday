@@ -10,7 +10,7 @@ export default function Footer() {
                 <div className="container p-4">
                     <div className="row text-md-start mt-5">
                         <div className="col-lg-3 col-md-6 mb-3 footerColumn">
-                            <a href="/" className="footerLogo pb-2" title="anddeals.com">
+                            <a href="/" className="footerLogo pb-2" title="SavesToday.com">
                                 Saves<span>Today</span>
                             </a>
                             <p className="aboutUs">
@@ -89,7 +89,7 @@ export default function Footer() {
                                     <a href="/faqs">FAQs</a>
                                 </li>
                                 <li className="pb-3">
-                                    <a href="/about">about andDeals</a>
+                                    <a href="/about">about SavesToday</a>
                                 </li>
                             </ul>
                         </div>
@@ -115,7 +115,7 @@ export default function Footer() {
                     <div className="row copyRightText">
                         <p className="lovetext">
                             © 2024 <a href="/" title="savestoday.com">savesToday.com</a> Made in London with love ❤️.
-                            andDeals is operated by andDeals IT Desk a company registered in the
+                            SavesToday is operated by SavesToday IT Desk a company registered in the
                             United Kingdom. Company No: XYZABC123. ICO: GFDG2323.
                         </p>
                         <p className="amznAffi">
