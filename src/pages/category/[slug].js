@@ -30,7 +30,7 @@ function Category({ category, categories }) {
                     <div className="breadcrumb">
                         <ul>
                             <li>
-                                <Link href="/">andDeals.com</Link> /
+                                <Link href="/">SavesToday.com</Link> /
                             </li>
                             <li>
                                 <a href="/category">categories</a> /

@@ -7,7 +7,7 @@ export default function cookiePolicy({ stores }) {
     return (
         <>
             <NextSeo
-                title="Anddeals - Free Verified Coupons, Discount Codes, & Deals"
+                title="SavesToday - Free Verified Coupons, Discount Codes, & Deals"
                 description="Find the latest coupons and promo codes for your favorite stores. Our constantly updated discount codes and deals help you get instant savings. We have top stores, exclusive discounts, and verified codes for all your shopping needs!"
             />
             {/* ========privacy policy========= */}
@@ -15,7 +15,7 @@ export default function cookiePolicy({ stores }) {
                 <div className="container">
                     <div className="row">
                         <div className="col-12">
-                            <h1 className="text-center">Anddeals Cookie Policy</h1>
+                            <h1 className="text-center">SavesToday Cookie Policy</h1>
                             <h2>
                                  What are Cookies?
                             </h2>
@@ -32,7 +32,7 @@ export default function cookiePolicy({ stores }) {
                                 Consent To Use Cookies
                             </h2>
                             <p>
-                                By using the Anddeals website, you consent to the use of cookies in accordance with our privacy policy. We use cookies for tracking information about how users interact with our site.
+                                By using the SavesToday website, you consent to the use of cookies in accordance with our privacy policy. We use cookies for tracking information about how users interact with our site.
                             </p>
                             <h2>
                                 Managing Cookies
@@ -44,7 +44,7 @@ export default function cookiePolicy({ stores }) {
                                 Changes To Cookie Policy
                             </h2>
                             <p>
-                                Anddeals reserves the right to amend or revise this cookie policy at any time. Your continued use of our website after any changes to this policy signifies your acceptance of the revised policy. 
+                            SavesToday reserves the right to amend or revise this cookie policy at any time. Your continued use of our website after any changes to this policy signifies your acceptance of the revised policy. 
                             </p>
                             <p>
                                 For further inquiries regarding our cookie policy, kindly reach out to us at <a href="https://savestoday.com/contact-us">https://savestoday.com/contact-us</a>

@@ -7,7 +7,7 @@ export default function about({ stores }) {
     return (
         <>
             <NextSeo
-                title="Anddeals - Free Verified Coupons, Discount Codes, & Deals"
+                title="SavesToday - Free Verified Coupons, Discount Codes, & Deals"
                 description="Find the latest coupons and promo codes for your favorite stores. Our constantly updated discount codes and deals help you get instant savings. We have top stores, exclusive discounts, and verified codes for all your shopping needs!"
             />
             {/* ========privacy policy========= */}
@@ -15,18 +15,18 @@ export default function about({ stores }) {
                 <div className="container">
                     <div className="row">
                         <div class="col-12">
-                            <h1 class="text-center"> About andDeals</h1>
+                            <h1 class="text-center"> About SavesToday</h1>
                             <p>
-                                Welcome to Anddeals, your go-to destination for the best deals and coupons. We believe everyone deserves to save money; therefore we have brought together all the amazing deals and coupons available on the web. On our platform, you will find great ways to grab incredible discounts on a broad range of products and services. Browse our website to discover the latest deals, promo codes, and discounts. 
+                                Welcome to SavesToday, your go-to destination for the best deals and coupons. We believe everyone deserves to save money; therefore we have brought together all the amazing deals and coupons available on the web. On our platform, you will find great ways to grab incredible discounts on a broad range of products and services. Browse our website to discover the latest deals, promo codes, and discounts. 
                             </p>
                             <p>
-                                Join us at Anddeals and start saving money today! 
+                                Join us at SavesToday and start saving money today! 
                             </p>
                             <h2>
                                 Our Mission
                             </h2>
                             <p>
-                                Our mission is simple: to provide a user-friendly platform where you can discover exclusive coupons and offers from your favorite online stores. We aim to help our customers save money and make smart purchasing decisions. We understand that saving money is important to you in today’s economy, and that’s why we strive to provide the most up-to-date and exclusive deals on a wide range of products and services. Anddeals helps you score the best deals and discounts on electronics, fashion, travel, and anything in between.
+                                Our mission is simple: to provide a user-friendly platform where you can discover exclusive coupons and offers from your favorite online stores. We aim to help our customers save money and make smart purchasing decisions. We understand that saving money is important to you in today’s economy, and that’s why we strive to provide the most up-to-date and exclusive deals on a wide range of products and services. SavesToday helps you score the best deals and discounts on electronics, fashion, travel, and anything in between.
                             </p>
                             <p>
                                 Here’s how we achieve our mission:
@@ -47,27 +47,27 @@ export default function about({ stores }) {
                                 2. Accuracy
                             </h2>
                             <p>
-                                To find you the most valuable discounts, our dedicated team of bargain hunters browse the web. We handpick each coupon code and deal to make sure it is genuine. Before posting anything, we authenticate all deals which we have featured. Thus, whatever offer you will ever come across at Anddeals is genuine and can help you save money on your purchases.
+                                To find you the most valuable discounts, our dedicated team of bargain hunters browse the web. We handpick each coupon code and deal to make sure it is genuine. Before posting anything, we authenticate all deals which we have featured. Thus, whatever offer you will ever come across at SavesToday is genuine and can help you save money on your purchases.
                             </p>
                             <h2>
                                 3. Privacy 
                             </h2>
                             <p>
-                                What sets us apart is our commitment to protecting your privacy. We prioritize your data security and make sure that your personal information is never compromised. We do not use any tracking technologies that violate your privacy concern. Anddeals offers a completely safe browsing experience devoid of any kind of data collection. 
+                                What sets us apart is our commitment to protecting your privacy. We prioritize your data security and make sure that your personal information is never compromised. We do not use any tracking technologies that violate your privacy concern. SavesToday offers a completely safe browsing experience devoid of any kind of data collection. 
                             </p>
                             <h2>
-                                How Anddeals Works
+                                How SavesToday Works
                             </h2>
                             <p>
                                     
-                                Anddeals generates revenue through its partnerships with online retailers and brands. In case a user visits our site and uses a link to buy something or applies the coupon code, Anddeals receives an affiliate commission. With this model, Anddeals is capable of giving exclusive deals and discounts to users while at the same time making money to continue running its operations.
+                            SavesToday generates revenue through its partnerships with online retailers and brands. In case a user visits our site and uses a link to buy something or applies the coupon code, SavesToday receives an affiliate commission. With this model, SavesToday is capable of giving exclusive deals and discounts to users while at the same time making money to continue running its operations.
 
                             </p>
                             <p>
-                                    It’s important to note that the commission earned by Anddeals does not affect the price of the products or services. The commission is solely based on the referral and does not impact the user’s shopping experience or the final amount they pay. 
+                                    It’s important to note that the commission earned by SavesToday does not affect the price of the products or services. The commission is solely based on the referral and does not impact the user’s shopping experience or the final amount they pay. 
                             </p>
                             <p>
-                                Thank you for choosing Anddeals as your trusted source for all things coupons and deals!
+                                Thank you for choosing SavesToday as your trusted source for all things coupons and deals!
 
                             </p>
                         </div>
