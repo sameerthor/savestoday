@@ -24,7 +24,7 @@ export default function Home({  storesOne,storesTwo,storesThree,storesFour }) {
                                         height={0}
                                         sizes="100vw"
                                         style={{ width: '100%', height: 'auto' }} alt="" />
-                                        <span className="sliderName">Udemy</span>
+                                        <span className="sliderName">Skin care</span>
                                         <div class="overlay"></div>
                                         
                                 </a>
@@ -33,7 +33,7 @@ export default function Home({  storesOne,storesTwo,storesThree,storesFour }) {
                                         height={0}
                                         sizes="100vw"
                                         style={{ width: '100%', height: 'auto' }} alt="" />
-                                        <span className="sliderName">Reebok</span>
+                                        <span className="sliderName">Web Hosting</span>
                                         <div class="overlay"></div>
                                 </a>
                                 <a href="/">
@@ -41,7 +41,7 @@ export default function Home({  storesOne,storesTwo,storesThree,storesFour }) {
                                         height={0}
                                         sizes="100vw"
                                         style={{ width: '100%', height: 'auto' }} alt="" />
-                                        <span className="sliderName">Fashion</span>
+                                        <span className="sliderName">Footwear</span>
                                         <div class="overlay"></div>
                                 </a>
                                 <a href="/">
@@ -49,7 +49,7 @@ export default function Home({  storesOne,storesTwo,storesThree,storesFour }) {
                                         height={0}
                                         sizes="100vw"
                                         style={{ width: '100%', height: 'auto' }} alt="" />
-                                        <span className="sliderName">Domino's</span>
+                                        <span className="sliderName">Cloathing</span>
                                         <div class="overlay"></div>
                                 </a>
                             </div>
