@@ -32,6 +32,9 @@
 .sitePolicy ul{
     padding-left: 25px;
 }
+.sitePolicy ol{
+    padding-left: 20px;
+}
 .sitePolicy ul li{
     font-weight: 500;
     color: #2e2e2e;
@@ -39,6 +42,15 @@
     font-size: 1rem;
     text-align: justify;
     line-height: 1.4;
+}
+.sitePolicy ol li{
+    font-weight: 500;
+    color: #2e2e2e;
+    margin-bottom: .4rem;
+    font-size: 1rem;
+    text-align: justify;
+    line-height: 1.4;
+    list-style-type: decimal;
 }
 .sitePolicy ul li::marker{
     content: '➡️ ';
