@@ -107,9 +107,6 @@ export default function Footer() {
                                 <li className="pb-3">
                                     <a href="cookie-policy">Cookie Policy</a>
                                 </li>
-                                <li className="pb-3">
-                                    <a href="terms-of-use">Terms of use</a>
-                                </li>
                             </ul>
                         </div>
                         {/*Other end*/}
