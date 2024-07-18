@@ -14,70 +14,61 @@ export default function termsOfUse({ stores }) {
             <section className="sitePolicy">
                 <div className="container">
                     <div className="row">
-                        <div className="col-12">
-                            <h1 className="text-center">SavesToday Terms Of Use</h1>
+                        <div class="col-12">
+                            <h1 class="text-center">SavestodayTerms Of Use</h1>
                             <p>
-                                Welcome to SavesToday, a website where you can find coupons and discounts on a variety of products. By accessing and using our website, you agree to comply with the following terms of use. We advise you to thoroughly read the “Terms of Use'' as they hold vital information regarding your legal rights and responsibilities. For individuals residing in the United States, it is important to understand that our terms of service include an arbitration clause and a class action waiver. By accepting these terms of use, you agree to be bound by this arbitration provision. Before using our services, please carefully read the instructions outlined in these terms and conditions.
+                                Welcome to Savestoday! These Terms of Use establish the guidelines for using our services and accessing our website. By using our site, you agree to be bound by these terms to ensure a smooth and secure experience for all our users. We advise you to read the instructions outlined “Terms of Use'' as they hold vital information regarding your legal rights and responsibilities.
                             </p>
-                            <h2>
-                                Acceptance Of Terms
-                            </h2>
+                            <h2>1. Use Of Services</h2>
                             <p>
-                                By using SavesToday website, you acknowledge that you have read, understand, and agree to be bound by these terms of use. If you do not agree with any of these Terms of Use, you are not authorized to use our services. Our Terms of Use are intended for all users, including those who are navigating the site or those who have a registered account.
+                                By using the Savestoday website, you acknowledge that you have read, understand, and agree to comply with these terms of use (“Terms”). If you do not agree with any of these Terms of Use, you are not authorized to use our services. You may use our website Savestoday.com to browse, obtain, and redeem coupons and deals offered by various merchants.
                             </p>
-                            <h2>
-                                    Use Of Services
-                            </h2>
+                            <h2>2. Validity of Coupon, Discount Codes, and Deals</h2>
                             <p>
-                                You may use our website SavesToday.com to browse, obtain, and redeem discount coupons and deals offered by various merchants. The legitimacy, accuracy, and completeness of any coupons or discounts are not guaranteed by SavesToday. It is your responsibility to ensure that any discounts or coupons you get from our website are accurate and used appropriately. 
+                                We strive to do our best to ensure all coupon codes and offers listed on Savestoday are the latest and valid, but we cannot check each one. Therefore it is your responsibility to check that the expected discount has been applied when you enter the code at checkout on the merchant’s website.
                             </p>
-                            
-                            <h2>
-                                User Conduct
-                            </h2>
+                            <h2>3. User Conduct</h2>
                             <p>
-                                You agree to use the SavesToday website and services in accordance with all applicable laws and regulations. You also agree to not engage in any activity that interferes or disrupts our website or services. You may agree not to:
-
+                                You agree to use the services only for lawful purposes and in accordance with these terms. You also agree to not be involved in any activity that interferes with or disrupts our website or services. You may not:
                             </p>
                             <ul>
-                                <li>Use the platform for any illegal or unauthorized purpose.</li>
-                                <li>Infringe upon the intellectual property of SavesToday or any third party. </li>
-                                <li>Manipulate or disrupt the platform's security. </li>
+                                <li>Use the services to violate any laws or regulations.</li>
+                                <li>Infringe on the intellectual property of rights of others.</li>
+                                <li>Manipulate or disrupt the platform's security.</li>
                                 <li>Send any malicious programs, viruses, or other files.</li>
-                                <li>Scrape or extract data from the platform without prior written consent.</li>
+                                <li>Scrape or extract data from the platform without prior consent.</li>
                                 <li>Create or spread false or misleading content on the platform.</li>
                                 <li>Violate another user's right to privacy.</li>
                             </ul>
-                            <h2>Intellectual Property Rights</h2>
+                            <h2>4. Intellectual Property Rights</h2>
                             <p>
-                                The content, trademark, logos, and other intellectual property displayed on the SavesToday website are the property of SavesToday or its licensors. You may not use, reproduce, or distribute any content from our website without prior written permission.
+                                The content, trademark, logos, and other intellectual property on the Savestoday website are the property of Savestoday. You may not use the services for any commercial purposes without prior written permission.
+                            </p>
+                            <h2>5. Third-Party Links</h2>
+                            <p>
+                                Savestoday contains links to third-party websites or services that are managed and controlled by others. We aren't responsible for any content or practices connected with these third-party websites.
                             </p>
                             <h2>
-                                Disclaimer Of Warranties
+                                6. Disclaimer Of Warranties
                             </h2>
                             <p>
-                                SavesToday provides its services on an “as is'' and “as available” basis. We do not make any warranties regarding the availability, accuracy, or reliability of our website or the deals and coupons provided.
+                                Savestoday provides its services on an “as is'' and “as available” basis. We do not make any warranties regarding the availability, reliability, or accuracy of our website or the coupons and deals provided. Savestoday does not warrant that the services will be uninterrupted, secure, or error-free. Additionally, we make no guarantees regarding the accuracy or reliability of the results that can be received by using the services.
                             </p>
-                            <h2>
-                                Limitation Of Liability
-                            </h2>
+                            <h2>7. Limitation Of Liability</h2>
                             <p>
-                                In no circumstances shall SavesToday be liable for any indirect, incidental, special, or consequential damages arising out of or in connection with our website or services.
+                                In no circumstances shall Savestoday be liable for any indirect, incidental, or consequential damages arising out of or related to your use of the services.
                             </p>
-                            <h2>
-                                Governing Law
-                            </h2>
+                            <h2>8. Governing Law</h2>
                             <p>
-                                These terms of use are governed and constructed under the laws of the United States, without regard to its conflict of law principles.
+                                These Terms of Use are governed and constructed under the laws of the United States, without regard to its conflict of law provisions.
                             </p>
-                            <h2>
-                                Changes to Terms
-                            </h2>
+                            <h2>9. Changes To These Terms</h2>
                             <p>
-                                SavesToday reserves the right to modify or revise these terms of use at any time. You are responsible for periodically reviewing the Terms of Use. Your continued use of our website after any changes to these terms constitutes your acceptance of the revised terms.
+                                Savestoday holds the right to modify or revise these terms from time to time. You are responsible for checking the Terms of Use periodically. Your continued use of our website after any alteration to these terms constitutes your acceptance of the revised terms.
                             </p>
+                            <h2>10. Contact Us</h2>
                             <p>
-                                By using the SavesToday website, you signify your agreement to these terms of use. If you do not agree to these terms and conditions, please do not use our website. If you have any questions about these terms, please contact us at  <a href="https://savestoday.com/contact-us.">https://savestoday.com/contact-us.</a>
+                                If you have any questions about these terms, please get in touch with us at <a href="/contact-us">https://savestoday.com/contact-us.</a>
                             </p>
                         </div>
                     </div>
