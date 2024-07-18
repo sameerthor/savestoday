@@ -14,41 +14,41 @@ export default function cookiePolicy({ stores }) {
             <section className="sitePolicy">
                 <div className="container">
                     <div className="row">
-                        <div className="col-12">
-                            <h1 className="text-center">SavesToday Cookie Policy</h1>
-                            <h2>
-                                 What are Cookies?
-                            </h2>
-                            <p>
-                                Cookies are small files that a site or its service provider transfers to your device’s hard drive through your web browser, provided you grant permission. These cookies enable the site’s or service provider’s systems to recognize your browser and capture specific information.
-                            </p>
-                            <h2>
-                                How We Use Cookies
-                            </h2>
-                            <p>
-                                We use cookies to understand and retain your preferences for future visits, compile aggregate data regarding site traffic and site integration, and provide a superior site experience for our users. 
-                            </p>
-                            <h2>
-                                Consent To Use Cookies
-                            </h2>
-                            <p>
-                                By using the SavesToday website, you consent to the use of cookies in accordance with our privacy policy. We use cookies for tracking information about how users interact with our site.
-                            </p>
-                            <h2>
-                                Managing Cookies
-                            </h2>
-                            <p>
-                                You can choose to have your browser notify you when cookies are being used or disable cookies through your browser settings. That said, deactivating cookies may impact the functionality of certain parts of our website.
-                            </p>
-                            <h2>
-                                Changes To Cookie Policy
-                            </h2>
-                            <p>
-                            SavesToday reserves the right to amend or revise this cookie policy at any time. Your continued use of our website after any changes to this policy signifies your acceptance of the revised policy. 
-                            </p>
-                            <p>
-                                For further inquiries regarding our cookie policy, kindly reach out to us at <a href="https://savestoday.com/contact-us">https://savestoday.com/contact-us</a>
-                            </p>
+                        <div class="col-12">
+            <h1 class="text-center">Savestoday Cookie Policy</h1>
+            <p>
+                At Savestoday, we take your privacy seriously. This cookie policy explains how we use cookies and similar technologies to enhance your browsing experience on our website. It allows you to understand how cookies are used and how you can manage your preferences.
+            </p>
+            <h2>What Are Cookies?</h2>
+            <p>
+                Cookies are small data files that are stored on your device (computer, phone, tablet) by a website when you visit it. They include an anonymous unique identifier and allow the site’s or service provider’s systems to recognize your web browser and remember certain information. 
+            </p>
+            <h2>How We Use Cookies</h2>
+            <p>
+                We use cookies to track site traffic and integration, understand and store your preferences for future visits, and enhance the user experience on our site. Certain cookies are necessary for the website to function properly and allow you to access its features. We use cookies to analyze how you use Savestoday, helping us improve its performance and usability. Cookies can help you remember your preferences and tailor your Savestoday experience. Additionally, cookies can remember your past visits and simplify processes like logging in.
+            </p>
+            <h2>Managing Cookies</h2>
+            <p>You may manage cookies through your web browser settings. This may include:</p>
+            <ol>
+                <li> Disabling cookies entirely.</li>
+                <li>Choose which cookies to allow.</li>
+                <li>Delete cookies after each session.</li>
+            </ol>
+            <p>
+                Please be aware that deactivating cookies may limit your functionality on Savestoday.
+            </p>
+            <h2>Consent To Use Cookies</h2>
+            <p>
+                By using the Savestoday website, you consent to our use of cookies in accordance with our policy.
+            </p>
+            <h2>Changes to the Cookie Policy</h2>
+            <p>
+                Savestoday reserves the right to revise this cookie policy at any time. Your continued use of our website after any changes to this cookie policy constitutes your acceptance of the modified policy. We will notify you of any significant changes by posting the new policy on Savestoday.
+            </p>
+            <h2>Contact Us</h2>
+            <p>
+                If you have any questions about this policy, please get in touch with us acceptance <a href="/contact-us"> https://savestoday.com/contact-us.</a>
+            </p>
                         </div>
                     </div>
                 </div>
