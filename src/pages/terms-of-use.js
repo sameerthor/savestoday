@@ -15,7 +15,7 @@ export default function termsOfUse({ stores }) {
                 <div className="container">
                     <div className="row">
                         <div class="col-12">
-                            <h1 class="text-center">SavestodayTerms Of Use</h1>
+                            <h1 class="text-center">Savestoday Terms Of Use</h1>
                             <p>
                                 Welcome to Savestoday! These Terms of Use establish the guidelines for using our services and accessing our website. By using our site, you agree to be bound by these terms to ensure a smooth and secure experience for all our users. We advise you to read the instructions outlined “Terms of Use'' as they hold vital information regarding your legal rights and responsibilities.
                             </p>
