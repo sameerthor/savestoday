@@ -14,7 +14,7 @@ export default function about({ stores }) {
             <section className="sitePolicy"> 
                 <div className="container">                   
                     <div className="row">
-                        <h1 className="text-center">Savestoday About Us  </h1>
+                        <h1 className="text-center">Savestoday About Us </h1>
                         <p>
                             Welcome to the world of Savestoday! 
 
