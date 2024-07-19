@@ -82,7 +82,8 @@ export default function Coupon({ index_id, store_data, coupon_data }) {
                             setDealTextShow(true)
                             setTimeout(() => {
                                 setDealTextShow(false)
-                                    ; window.open(store_data.affiliate_url, "_blank");
+                                window.open(`/${store_data.slug}`, "_blank");
+                                window.open(store_data.affiliate_url, "_self");
                             }, 1500)
 
 
