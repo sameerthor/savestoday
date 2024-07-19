@@ -461,6 +461,7 @@
     .subscribeBox .subscribeBoxInner .subcribeForm{
         padding: 3rem 1rem;
     }
+    
  }
 
  .pageHeading{
@@ -507,6 +508,14 @@
    font-weight: 500;
    color: #2e2e2e;
    font-size: .88rem;
+ }
+ @media(max-width:991px){
+    .subCatBox .flex-reverse{
+        flex-direction: column-reverse;
+     }
+     .subCatBox .flex-reverse .mb{
+        margin-bottom: 2rem;
+     }
  }
 
  @media(max-width: 600px){

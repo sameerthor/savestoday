@@ -45,7 +45,7 @@ function Category({ category, categories }) {
                             Best {category.title} Coupons &amp; Deals for {moment().format("MMMM YYYY")}
                         </h1>
                         <div className="subCatBox">
-                            <div className="row">
+                            <div className="row flex-reverse">
                                 <div className="col-lg-3">
                                     <div className="offerToday">
                                         <h3>Today's {category.title} Offers</h3>
@@ -73,8 +73,8 @@ function Category({ category, categories }) {
                                       
                                     </div>
                                 </div>
-                                <div className="col-lg-9 p-0">
-                                    <div className="row">
+                                <div className="col-lg-9 p-0 mb">
+                                    <div className="row">   
                                         {category.store_set.map(item =>
                                             <div className='col-md-3'>
                                                 <Link href={`/${item.slug}`} className="storeBox">
