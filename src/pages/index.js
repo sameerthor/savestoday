@@ -49,7 +49,7 @@ export default function Home({  storesOne,storesTwo,storesThree,storesFour }) {
                                         height={0}
                                         sizes="100vw"
                                         style={{ width: '100%', height: 'auto' }} alt="" />
-                                        <span className="sliderName">Cloathing</span>
+                                        <span className="sliderName">Clothing</span>
                                         <div class="overlay"></div>
                                 </a>
                             </div>
