@@ -4,7 +4,7 @@ const { publicRuntimeConfig } = getConfig()
 
 const Sitemap = () => { };
 const toUrl = (data) =>
-    data.slug == 1 ? `<url><loc>${data.url}</loc> <image:image><image:loc>${data.image}</image:loc></image:image><lastmod>${data.last_mod}</lastmod><changefreq>daily</changefreq><priority>1</priority></url>` : `<url><loc>${data.url}</loc><changefreq>daily</changefreq><priority>0.7</priority></url>`;
+    data.slug == 1 ? `<url><loc>${data.url}</loc> <image:image><image:loc>${data.image}</image:loc></image:image><lastmod>${data.last_mod}</lastmod><changefreq>daily</changefreq></url>` : `<url><loc>${data.url}</loc><changefreq>daily</changefreq></url>`;
 
 const createSitemap = (urlList) =>
     `<?xml version="1.0" encoding="UTF-8"?>
