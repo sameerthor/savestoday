@@ -115,7 +115,7 @@ export default function Footer() {
                         <p className="lovetext">
                             © 2024 <a href="/" title="savestoday.com">savesToday.com</a> Made in London with love ❤️.
                             SavesToday is operated by SavesToday IT Desk a company registered in the
-                            United Kingdom. Company No: XYZABC123. ICO: GFDG2323.
+                            United Kingdom. Company No: 08532926.
                         </p>
                         <p className="amznAffi">
                             Amazon and the Amazon logo are trademarks of Amazon.com, Inc. or its
