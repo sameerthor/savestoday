@@ -1,6 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-    siteUrl: process.env.SITE_URL || 'https://www.anddeals.com',
+    siteUrl: process.env.SITE_URL || 'https://www.savestoday.com',
     generateRobotsTxt: false, // (optional)
     generateIndexSitemap: false,
     transform: async (config, path) => {
