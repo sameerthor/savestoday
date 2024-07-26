@@ -28,13 +28,13 @@ const nextConfig = {
     }
     
     return config;
-  },
-  rewrites: async () => [
-    {
-      source: '/savestoday-sitemap.xml',
-      destination: '/sitemap',
-    }
-  ]
+  }//,
+  // rewrites: async () => [
+  //   {
+  //     source: '/savestoday-sitemap.xml',
+  //     destination: '/sitemap',
+  //   }
+  // ]
 };
 
 export default nextConfig;
