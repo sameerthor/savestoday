@@ -4,7 +4,7 @@ import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { NextSeo } from "next-seo";
 import Link from "next/link";
-import Router from "next/router";
+import Router from "next/router";;
 import { lazy } from "react";
 export default function Home({  storesOne,storesTwo,storesThree,storesFour }) {
     return (
