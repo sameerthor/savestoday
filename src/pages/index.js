@@ -19,16 +19,15 @@ export default function Home({  storesOne,storesTwo,storesThree,storesFour }) {
                     <div className="banner-slider carousel-wrapper">
                         <Carousel showThumbs={false} infiniteLoop={true} showStatus={false}>
                             <div className="carousel-slide">
-                                <a href="/">
+                                <a href="/category/beauty-and-cosmetics">
                                     <img src="/images/slider-1.png"  blurDataURL={'/images/slider-1.png'}  placeholder="blur" priority={true} quality={1} width={0}
                                         height={0}
                                         sizes="100vw"
                                         style={{ width: '100%', height: 'auto' }} alt="" />
                                         <span className="sliderName">Skin care</span>
                                         <div class="overlay"></div>
-                                        
                                 </a>
-                                <a href="/">    
+                                <a href="/category/web-hosting">    
                                     <Image src="/images/slider-2.png" priority={true} quality={1} width={0}
                                         height={0}
                                         sizes="100vw"
@@ -36,7 +35,7 @@ export default function Home({  storesOne,storesTwo,storesThree,storesFour }) {
                                         <span className="sliderName">Web Hosting</span>
                                         <div class="overlay"></div>
                                 </a>
-                                <a href="/">
+                                <a href="/category/sportswear">
                                     <Image src="/images/slider-3.png" priority={true} quality={1} width={0}
                                         height={0}
                                         sizes="100vw"
@@ -44,7 +43,7 @@ export default function Home({  storesOne,storesTwo,storesThree,storesFour }) {
                                         <span className="sliderName">Footwear</span>
                                         <div class="overlay"></div>
                                 </a>
-                                <a href="/">
+                                <a href="/category/clothing-and-accessories">
                                     <Image src="/images/slider-4.png" priority={true} quality={1} width={0}
                                         height={0}
                                         sizes="100vw"
@@ -54,7 +53,7 @@ export default function Home({  storesOne,storesTwo,storesThree,storesFour }) {
                                 </a>
                             </div>
                             <div className="carousel-slide">
-                                <a href="/booking">
+                                <a href="/category/tour-and-travel">
                                     <Image src="/images/travell-banner.png"  quality={1} width={0}
                                         height={0}
                                         sizes="100vw"
@@ -62,7 +61,7 @@ export default function Home({  storesOne,storesTwo,storesThree,storesFour }) {
                                          <span className="sliderName">Booking.com</span>
                                          <div class="overlay"></div>
                                 </a>
-                                <a href="/category/beauty-and-health">
+                                <a href="/category/beauty-and-cosmetics">
                                     <Image src="/images/Skin-Care-banner.png"  quality={1} width={0}
                                         height={0}
                                         sizes="100vw"
@@ -70,7 +69,7 @@ export default function Home({  storesOne,storesTwo,storesThree,storesFour }) {
                                          <span className="sliderName">Skin Care</span>
                                          <div class="overlay"></div>
                                 </a>
-                                <a href="/category/bedding-and-mattresses" className="megaSale">
+                                <a href="/category/furniture" className="megaSale">
                                     <Image  src="/images/furniture-banner.png"  quality={1} width={0}
                                         height={0}
                                         sizes="100vw"
@@ -78,7 +77,7 @@ export default function Home({  storesOne,storesTwo,storesThree,storesFour }) {
                                          <span className="sliderName">Furniture</span>
                                          <div class="overlay"></div>
                                 </a>
-                                <a href="/category/fitness">
+                                <a href="/category/sportswear">
                                     <Image src="/images/sports-fitness-banner.png"  quality={1} width={0}
                                         height={0}
                                         sizes="100vw"
