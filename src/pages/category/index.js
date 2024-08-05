@@ -7,7 +7,7 @@ import { NextSeo } from "next-seo";
 export default function Categories({ categories }) {
     return (
         <>
-        <NextSeo
+            <NextSeo
                 title="Category - Savestoday"
                 description="Find the exclusive coupons and promo codes for your favorite brands. We have updated discount codes and deals to help you get amazing discounts and deals. Shop from a wide range stores and apply our exclusive discounts, and verified codes to save huge."
             />
@@ -25,7 +25,7 @@ export default function Categories({ categories }) {
                                             </div>
                                             <div className="dealCount">
                                                 <span>
-                                                    {item.store_set.reduce((count, current) => count + current.coupon_set.filter(x => x.coupon_type == 'code').length, 0)} coupons <small>|</small> {item.store_set.reduce((count, current) => count + current.coupon_set.filter(x => x.coupon_type == 'deal').length, 0)} Deals
+                                                    {item.store_set.reduce((count, current) => count + current.coupon_set.filter(x => x.coupon_type == 'code').length, 0) > 0 && `${item.store_set.reduce((count, current) => count + current.coupon_set.filter(x => x.coupon_type == 'code').length, 0)} Coupons`}  {item.store_set.reduce((count, current) => count + current.coupon_set.filter(x => x.coupon_type == 'code').length, 0) > 0 && item.store_set.reduce((count, current) => count + current.coupon_set.filter(x => x.coupon_type == 'deal').length, 0) > 0 ? <small>|</small> : ''} {item.store_set.reduce((count, current) => count + current.coupon_set.filter(x => x.coupon_type == 'deal').length, 0) > 0 && `${item.store_set.reduce((count, current) => count + current.coupon_set.filter(x => x.coupon_type == 'deal').length, 0)} Deals`}
                                                 </span>
                                             </div>
                                         </Link>
@@ -88,7 +88,7 @@ export async function getStaticProps({ params }) {
 
     const res = await fetch(`https://backend.savestoday.com/categories?ordering=title`)
     const categories = await res.json()
-  
+
     return {
         props: {
             categories
