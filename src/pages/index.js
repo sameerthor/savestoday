@@ -20,7 +20,7 @@ export default function Home({  storesOne,storesTwo,storesThree,storesFour }) {
                         <Carousel showThumbs={false} infiniteLoop={true} showStatus={false}>
                             <div className="carousel-slide">
                                 <a href="/category/beauty-and-cosmetics">
-                                    <img src="/images/slider-1.png"  blurDataURL={'/images/slider-1.png'}  placeholder="blur" priority={true} quality={1} width={0}
+                                    <img src="/images/slider-1.png"  blurDataURL={'/images/slider-1.png'}  placeholder="blur" priority={true}  width={0}
                                         height={0}
                                         sizes="100vw"
                                         style={{ width: '100%', height: 'auto' }} alt="" />
@@ -28,7 +28,7 @@ export default function Home({  storesOne,storesTwo,storesThree,storesFour }) {
                                         <div class="overlay"></div>
                                 </a>
                                 <a href="/category/web-hosting">    
-                                    <Image src="/images/slider-2.png" priority={true} quality={1} width={0}
+                                    <Image src="/images/slider-2.png" priority={true}  width={0}
                                         height={0}
                                         sizes="100vw"
                                         style={{ width: '100%', height: 'auto' }} alt="" />
@@ -36,7 +36,7 @@ export default function Home({  storesOne,storesTwo,storesThree,storesFour }) {
                                         <div class="overlay"></div>
                                 </a>
                                 <a href="/category/sportswear">
-                                    <Image src="/images/slider-3.png" priority={true} quality={1} width={0}
+                                    <Image src="/images/slider-3.png" priority={true}  width={0}
                                         height={0}
                                         sizes="100vw"
                                         style={{ width: '100%', height: 'auto' }} alt="" />
@@ -44,7 +44,7 @@ export default function Home({  storesOne,storesTwo,storesThree,storesFour }) {
                                         <div class="overlay"></div>
                                 </a>
                                 <a href="/category/clothing-and-accessories">
-                                    <Image src="/images/slider-4.png" priority={true} quality={1} width={0}
+                                    <Image src="/images/slider-4.png" priority={true}  width={0}
                                         height={0}
                                         sizes="100vw"
                                         style={{ width: '100%', height: 'auto' }} alt="" />
@@ -54,7 +54,7 @@ export default function Home({  storesOne,storesTwo,storesThree,storesFour }) {
                             </div>
                             <div className="carousel-slide">
                                 <a href="/category/tour-and-travel">
-                                    <Image src="/images/travell-banner.png"  quality={1} width={0}
+                                    <Image src="/images/travell-banner.png"   width={0}
                                         height={0}
                                         sizes="100vw"
                                         style={{ width: '100%', height: 'auto' }} alt="" />
@@ -62,7 +62,7 @@ export default function Home({  storesOne,storesTwo,storesThree,storesFour }) {
                                          <div class="overlay"></div>
                                 </a>
                                 <a href="/category/beauty-and-cosmetics">
-                                    <Image src="/images/Skin-Care-banner.png"  quality={1} width={0}
+                                    <Image src="/images/Skin-Care-banner.png"   width={0}
                                         height={0}
                                         sizes="100vw"
                                         style={{ width: '100%', height: 'auto' }} alt="" />
@@ -70,7 +70,7 @@ export default function Home({  storesOne,storesTwo,storesThree,storesFour }) {
                                          <div class="overlay"></div>
                                 </a>
                                 <a href="/category/furniture" className="megaSale">
-                                    <Image  src="/images/furniture-banner.png"  quality={1} width={0}
+                                    <Image  src="/images/furniture-banner.png"   width={0}
                                         height={0}
                                         sizes="100vw"
                                         style={{ width: '100%', height: 'auto' }} alt="" />
@@ -78,7 +78,7 @@ export default function Home({  storesOne,storesTwo,storesThree,storesFour }) {
                                          <div class="overlay"></div>
                                 </a>
                                 <a href="/category/sportswear">
-                                    <Image src="/images/sports-fitness-banner.png"  quality={1} width={0}
+                                    <Image src="/images/sports-fitness-banner.png"   width={0}
                                         height={0}
                                         sizes="100vw"
                                         style={{ width: '100%', height: 'auto' }} alt="" />
