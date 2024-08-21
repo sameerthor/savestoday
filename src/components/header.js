@@ -10,18 +10,18 @@ export default function Header() {
     const router = useRouter();
 
     const [filterdata, setFilterdata] = useState([]);
-    // useEffect(() => {
+    useEffect(() => {
 
-    //     axios.get('https://backend.savestoday.com/store-search/')
-    //         .then(function (response) {
-    //             var d = response.data.map(item => { return { key: item.slug, value: item.title } })
-    //             setFilterdata(d);
-    //         })
-    //         .catch(function (error) {
-    //             // handle error
-    //             console.log(error);
-    //         })
-    // }, []);
+        axios.get('https://backend.savestoday.com/store-search/')
+            .then(function (response) {
+                var d = response.data.map(item => { return { key: item.slug, value: item.title } })
+                setFilterdata(d);
+            })
+            .catch(function (error) {
+                // handle error
+                console.log(error);
+            })
+    }, []);
     return (
         <>
             <nav className="navbar navbar-expand-lg pageHeader">
