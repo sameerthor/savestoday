@@ -20,7 +20,7 @@ export default function Home({  storesOne,storesTwo,storesThree,storesFour }) {
                         <Carousel showThumbs={false} infiniteLoop={true} showStatus={false}>
                             <div className="carousel-slide">
                                 <a href="/category/beauty-and-cosmetics">
-                                    <Image src="/images/slider-1.png"  priority={true} quality={50} width={0}
+                                    <Image src="/images/slider-1.png"  priority={true} quality={10} width={0}
                                         height={0}
                                         sizes="100vw"
                                         style={{ width: '100%', height: 'auto' }} alt="" />
@@ -28,7 +28,7 @@ export default function Home({  storesOne,storesTwo,storesThree,storesFour }) {
                                         <div class="overlay"></div>
                                 </a>
                                 <a href="/category/web-hosting">    
-                                    <Image src="/images/slider-2.png" priority={true} quality={50} width={0}
+                                    <Image src="/images/slider-2.png"  quality={50} width={0}
                                         height={0}
                                         sizes="100vw"
                                         style={{ width: '100%', height: 'auto' }} alt="" />
@@ -36,7 +36,7 @@ export default function Home({  storesOne,storesTwo,storesThree,storesFour }) {
                                         <div class="overlay"></div>
                                 </a>
                                 <a href="/category/sportswear">
-                                    <Image src="/images/slider-3.png" priority={true} quality={50} width={0}
+                                    <Image src="/images/slider-3.png"  quality={50} width={0}
                                         height={0}
                                         sizes="100vw"
                                         style={{ width: '100%', height: 'auto' }} alt="" />
@@ -44,7 +44,7 @@ export default function Home({  storesOne,storesTwo,storesThree,storesFour }) {
                                         <div class="overlay"></div>
                                 </a>
                                 <a href="/category/clothing-and-accessories">
-                                    <Image src="/images/slider-4.png" priority={true} quality={50} width={0}
+                                    <Image src="/images/slider-4.png"  quality={50} width={0}
                                         height={0}
                                         sizes="100vw"
                                         style={{ width: '100%', height: 'auto' }} alt="" />
