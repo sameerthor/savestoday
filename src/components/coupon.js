@@ -61,7 +61,7 @@ export default function Coupon({ index_id, store_data, coupon_data }) {
                             {coupon_data.content.replace(/<[^>]*>?/gm, '')}
                         </p>
                     </div>
-                    {coupon_data.coupon_type == "code" ? <div className="couponBtn">
+                    {coupon_data.coupon_type == "code" && coupon_data.coupon_code != "" ? <div className="couponBtn">
                         <button
                             className="codeLink"
                             onClick={async (e) => {
