@@ -20,7 +20,7 @@ const RatingBox = dynamic(() => import('@/components/ratingbox'),
 import Link from "next/link";
 
 function Store({ store, relStores, simCat }) {
-    console.log(simCat)
+   // console.log(simCat)
     const store_names = relStores.filter(f => f.id !== store.id).slice(0, 2).map(item => `<a href="/${item.slug}">${item.title}</a>`)
     store.store_description = store.store_description.replaceAll("%%storename%%", store.title);
     store.store_description = store.store_description.replaceAll("%pe­rcentage% off", store.coupon_set[0].title);

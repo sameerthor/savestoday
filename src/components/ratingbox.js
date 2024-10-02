@@ -17,7 +17,7 @@ export default function RatingBox({store}) {
     else
         var user_rating = 0;
 
-console.log("r",user_rating)
+//console.log("r",user_rating)
     const [userRating, setUserRating] = useState(user_rating)
     const [rateAlready, setRateAlready] = useState(user_rating == 0 ? false : true)
 
@@ -60,7 +60,7 @@ console.log("r",user_rating)
             }
         }
         try {
-            console.log("store_id", store.id)
+        //    console.log("store_id", store.id)
             const res = await fetch('/api/rating', {
                 method: 'POST',
                 body: JSON.stringify({ "rating": { "itemId": store.id, "values": [userRating] } }),
@@ -68,7 +68,7 @@ console.log("r",user_rating)
                     'content-type': 'application/json'
                 }
             })
-            console.log(res)
+         //   console.log(res)
             if (res.ok) {
                 //  console.log("Yeai!")
             } else {

@@ -20,7 +20,7 @@ export default function Home({  storesOne,storesTwo,storesThree,storesFour }) {
                         <Carousel showThumbs={false} infiniteLoop={true} showStatus={false}>
                             <div className="carousel-slide">
                                 <a href="/category/beauty-and-cosmetics">
-                                    <img src="/images/slider-1.png"  priority={true} quality={1} width={0}
+                                    <img src="/images/slider-1.png"  blurDataURL={'/images/slider-1.png'}  placeholder="blur" priority={true} quality={1} width={0}
                                         height={0}
                                         sizes="100vw"
                                         style={{ width: '100%', height: 'auto' }} alt="" />

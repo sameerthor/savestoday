@@ -7,7 +7,7 @@ import { config, dom } from '@fortawesome/fontawesome-svg-core';
 config.autoAddCss = false;
 import Header from "@/components/header";
 import Footer from "@/components/footer";
-import { GoogleAnalytics } from '@next/third-parties/google'
+import Script from 'next/script';
 
 export default function App({ Component, pageProps }) {
   useEffect(() => {
@@ -17,9 +17,21 @@ export default function App({ Component, pageProps }) {
     <main>
       <Head>
         <style>{dom.css()}</style>
-        </Head>
-        <GoogleAnalytics gaId="G-HS1M2KPJTL" />
+      </Head>
+      {/* <GoogleAnalytics gaId="G-HS1M2KPJTL" /> */}
+      <Script
+        src="https://www.googletagmanager.com/gtag/js?id=G-HS1M2KPJTL"
+        strategy="lazyOnload"
+      />
+      <Script id="google-analytics" strategy="lazyOnload">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){window.dataLayer.push(arguments);}
+          gtag('js', new Date());
 
+          gtag('config', 'G-HS1M2KPJTL');
+        `}
+      </Script>
       <Header />
       <Component {...pageProps} />
       <Footer />
