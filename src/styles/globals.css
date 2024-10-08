@@ -322,3 +322,12 @@ font-family: 'Montserrat', sans-serif;
     padding: 0;
   }
 }
+@media(max-width:991px){
+  .react-search-box-dropdown{
+    position: relative;
+  }
+  .react-search-box-dropdown ul{
+    position: absolute;
+    width: 100%;
+  }
+}

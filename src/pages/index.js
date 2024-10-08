@@ -6,7 +6,7 @@ import { NextSeo } from "next-seo";
 import Link from "next/link";
 import Router from "next/router";;
 import { lazy } from "react";
-export default function Home({ homeStores }) {
+export default function Home({  storesOne,storesTwo,storesThree,storesFour }) {
     return (
 
         <>
@@ -20,70 +20,70 @@ export default function Home({ homeStores }) {
                         <Carousel showThumbs={false} infiniteLoop={true} showStatus={false}>
                             <div className="carousel-slide">
                                 <a href="/category/beauty-and-cosmetics">
-                                    <Image src="/images/slider-1.png" priority={true} quality={50} width={0}
+                                    <img src="/images/slider-1.png"  blurDataURL={'/images/slider-1.png'}  priority={true} quality={1} width={0}
                                         height={0}
                                         sizes="100vw"
                                         style={{ width: '100%', height: 'auto' }} alt="" />
-                                    <span className="sliderName">Skin care</span>
-                                    <div class="overlay"></div>
+                                        <span className="sliderName">Skin care</span>
+                                        <div class="overlay"></div>
                                 </a>
-                                <a href="/category/web-hosting">
-                                    <Image src="/images/slider-2.png" width={0}
+                                <a href="/category/web-hosting">    
+                                    <Image src="/images/slider-2.png" priority={true} quality={1} width={0}
                                         height={0}
                                         sizes="100vw"
                                         style={{ width: '100%', height: 'auto' }} alt="" />
-                                    <span className="sliderName">Web Hosting</span>
-                                    <div class="overlay"></div>
+                                        <span className="sliderName">Web Hosting</span>
+                                        <div class="overlay"></div>
                                 </a>
                                 <a href="/category/sportswear">
-                                    <Image src="/images/slider-3.png" width={0}
+                                    <Image src="/images/slider-3.png" priority={true} quality={1} width={0}
                                         height={0}
                                         sizes="100vw"
                                         style={{ width: '100%', height: 'auto' }} alt="" />
-                                    <span className="sliderName">Footwear</span>
-                                    <div class="overlay"></div>
+                                        <span className="sliderName">Footwear</span>
+                                        <div class="overlay"></div>
                                 </a>
                                 <a href="/category/clothing-and-accessories">
-                                    <Image src="/images/slider-4.png" width={0}
+                                    <Image src="/images/slider-4.png" priority={true} quality={1} width={0}
                                         height={0}
                                         sizes="100vw"
                                         style={{ width: '100%', height: 'auto' }} alt="" />
-                                    <span className="sliderName">Clothing</span>
-                                    <div class="overlay"></div>
+                                        <span className="sliderName">Clothing</span>
+                                        <div class="overlay"></div>
                                 </a>
                             </div>
                             <div className="carousel-slide">
                                 <a href="/category/tour-and-travel">
-                                    <Image src="/images/travell-banner.png" width={0}
+                                    <Image src="/images/travell-banner.png"  quality={1} width={0}
                                         height={0}
                                         sizes="100vw"
                                         style={{ width: '100%', height: 'auto' }} alt="" />
-                                    <span className="sliderName">Booking.com</span>
-                                    <div class="overlay"></div>
+                                         <span className="sliderName">Booking.com</span>
+                                         <div class="overlay"></div>
                                 </a>
                                 <a href="/category/beauty-and-cosmetics">
-                                    <Image src="/images/Skin-Care-banner.png" width={0}
+                                    <Image src="/images/Skin-Care-banner.png"  quality={1} width={0}
                                         height={0}
                                         sizes="100vw"
                                         style={{ width: '100%', height: 'auto' }} alt="" />
-                                    <span className="sliderName">Skin Care</span>
-                                    <div class="overlay"></div>
+                                         <span className="sliderName">Skin Care</span>
+                                         <div class="overlay"></div>
                                 </a>
                                 <a href="/category/furniture" className="megaSale">
-                                    <Image src="/images/furniture-banner.png" width={0}
+                                    <Image  src="/images/furniture-banner.png"  quality={1} width={0}
                                         height={0}
                                         sizes="100vw"
                                         style={{ width: '100%', height: 'auto' }} alt="" />
-                                    <span className="sliderName">Furniture</span>
-                                    <div class="overlay"></div>
+                                         <span className="sliderName">Furniture</span>
+                                         <div class="overlay"></div>
                                 </a>
                                 <a href="/category/sportswear">
-                                    <Image src="/images/sports-fitness-banner.png" width={0}
+                                    <Image src="/images/sports-fitness-banner.png"  quality={1} width={0}
                                         height={0}
                                         sizes="100vw"
                                         style={{ width: '100%', height: 'auto' }} alt="" />
-                                    <span className="sliderName">Sports & Fitness</span>
-                                    <div class="overlay"></div>
+                                        <span className="sliderName">Sports & Fitness</span>
+                                        <div class="overlay"></div>
                                 </a>
                             </div>
                         </Carousel>
@@ -94,15 +94,14 @@ export default function Home({ homeStores }) {
                 <div className="container">
                     <div className="row">
                         <h2>Exclusive Deals &amp; Promocodes</h2>
-                        {homeStores.map((item, index) =>
-                          item.home_options == "1" &&
+                        {storesOne.map((item, index) =>
                             <div className="col-lg-3 col-md-4 col-sm-6 exclusive-box">
                                 <Link href={`/${item.slug}`} className="exclusiveItem">
                                     <div className="circle">
                                         <Image loading="lazy"
-                                            width="100"
-                                            height={100}
-                                            src={`${item.image.replace('http://', 'https://')}`}
+                                     width="100"
+                                     height={100}
+                                            src={`${item.image.replace('http://','https://')}`}
                                             alt={`${item.image_alt}`}
                                         />
                                     </div>
@@ -127,20 +126,19 @@ export default function Home({ homeStores }) {
                     <h2>Top deals from favourite stores</h2>
                     <div className="deal-slider">
                         <div className="row">
-                            {homeStores.map((item, index) =>
-                             item.home_options == "2" &&
+                            {storesTwo.map((item, index) =>
                                 <div className="col-lg-3 col-md-4 col-sm-6 mb-3">
                                     <Link href={`/${item.slug}`} className="dealBox">
                                         <div className="dealImg">
                                             <Image loading="lazy"
-                                                width="100"
-                                                height={100}
-                                                src={`${item.image.replace('http://', 'https://')}`}
+                                          width="100"
+                                          height={100}
+                                                src={`${item.image.replace('http://','https://')}`}
                                                 alt={`${item.image_alt}`}
                                             />
                                         </div>
                                         <p className="dealName">{item.title}</p>
-                                        <p className="dealDesc" dangerouslySetInnerHTML={{ __html: item.coupon_set[0].content }}>
+                                        <p className="dealDesc" dangerouslySetInnerHTML={{__html:item.coupon_set[0].content}}>
                                         </p>
                                         <span className="dealBtn">{item.coupon_set[0].discount_value}</span>
                                     </Link>
@@ -157,20 +155,19 @@ export default function Home({ homeStores }) {
                         <Link href="/stores">Explore More</Link>
                     </div>
                     <div className="row">
-                        {homeStores.map((item, index) =>
-                        item.home_options == "3" &&
+                        {storesThree.map((item, index) =>
                             <div className="col-lg-3 col-md-6 col-sm-6 col-12  mb-3">
                                 <Link className="trandingDealbox" href={`/${item.slug}`}>
                                     <div className="imgbox">
                                         <Image loading="lazy"
-                                            src={`${item.image.replace('http://', 'https://')}`}
+                                            src={`${item.image.replace('http://','https://')}`}
                                             alt={`${item.image_alt}`}
                                             width="100"
                                             height={100}
                                         />
                                     </div>
                                     <div className="dealInfo">
-                                        <h4 dangerouslySetInnerHTML={{ __html: item.coupon_set[0].content }}></h4>
+                                        <h4 dangerouslySetInnerHTML={{__html:item.coupon_set[0].content}}></h4>
                                     </div>
                                     <span className="grabDeal">
                                         Grab Deal
@@ -196,15 +193,14 @@ export default function Home({ homeStores }) {
                     <h2>Popular Brands</h2>
                     <div className="popularStore">
                         <div className="row row-cols-2">
-                            {homeStores.map((item, index) =>
-                                item.home_options == "4" &&
+                            {storesFour.map((item, index) =>
                                 <div className="col-lg-3 col-md-4 col-sm-6 mb-3">
                                     <Link href={`/${item.slug}`} className="popularBox">
                                         <div className="imgBox">
                                             <Image loading="lazy"
-                                                width="100"
-                                                height={100}
-                                                src={`${item.image.replace('http://', 'https://')}`}
+                                            width="100"
+                                            height={100}
+                                                src={`${item.image.replace('http://','https://')}`}
                                                 alt={`${item.image_alt}`}
                                             />                </div>
                                         <div className="dealCount">
@@ -223,16 +219,26 @@ export default function Home({ homeStores }) {
     );
 }
 export async function getStaticProps({ params }) {
-    const res = await fetch(`https://backend.savestoday.com/home-page/`)
-    const homeStores = await res.json()
+    const resOne = await fetch(`https://backend.savestoday.com/stores/?home_options=1&ordering=-id`)
+    const storesOne = await resOne.json()
+    const resTwo = await fetch(`https://backend.savestoday.com/stores/?home_options=2&ordering=-id`)
+    const storesTwo = await resTwo.json()
+    const resThree = await fetch(`https://backend.savestoday.com/stores/?home_options=3&ordering=-id`)
+    const storesThree = await resThree.json()
+    const resFour = await fetch(`https://backend.savestoday.com/stores/?home_options=4&ordering=-id`)
+    const storesFour = await resFour.json()
+   
 
     return {
         props: {
-            homeStores
+            storesOne,
+            storesTwo,
+            storesThree,
+            storesFour
         },
         // Next.js will attempt to re-generate the page:
         // - When a request comes in
         // - At most once every 10 seconds
-        revalidate: 20, // In seconds
+        revalidate: 10, // In seconds
     }
 }
