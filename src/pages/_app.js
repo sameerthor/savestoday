@@ -16,6 +16,7 @@ export default function App({ Component, pageProps }) {
   return (
     <main>
       <Head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
         <style>{dom.css()}</style>
       </Head>
       {/* <GoogleAnalytics gaId="G-HS1M2KPJTL" /> */}
