@@ -307,6 +307,7 @@ font-family: 'Montserrat', sans-serif;
   }
   .navbar.pageHeader input{
     width: 100%;
+    font-size: 17px;
   }
 }
 @media(max-width: 600px){
@@ -329,5 +330,8 @@ font-family: 'Montserrat', sans-serif;
   .react-search-box-dropdown ul{
     position: absolute;
     width: 100%;
+  }
+  .react-search-box-dropdown ul li{
+    font-size: 17px;
   }
 }
