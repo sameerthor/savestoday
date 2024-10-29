@@ -1,5 +1,5 @@
 import Image from "next/image";
-import "@/styles/blogs.css";
+import "@/styles/blog.css";
 import { NextSeo } from "next-seo";
 import Link from "next/link";
 import Router from "next/router";
@@ -123,7 +123,7 @@ export default function allBlogs({ stores }) {
                             <aside className="sidebar">
                                 <div className="searchBlog mb-3 d-none d-lg-block">
                                     <div className="searchBox ms-auto">
-                                        <form action="#noWhere" style="width: 300px;">
+                                        <form action="#noWhere" style= {{width: '300px'}}>
                                             <input type="search" searchmode="search" className="form-control" placeholder="Search blog"/>
                                             <button>
                                                 <svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" className="bi bi-search" viewBox="0 0 16 16">
