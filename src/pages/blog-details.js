@@ -1,5 +1,5 @@
 import Image from "next/image";
-import "@/styles/blog.css";
+import "@/styles/blogs.css";
 import { NextSeo } from "next-seo";
 import Link from "next/link";
 import Router from "next/router";
@@ -10,13 +10,14 @@ export default function blogDetails({ stores }) {
                 title="SavesToday - Free Verified Coupons, Discount Codes, & Deals"
                 description="Find the latest coupons and promo codes for your favorite stores. Our constantly updated discount codes and deals help you get instant savings. We have top stores, exclusive discounts, and verified codes for all your shopping needs!"
             />
-            {/* ========privacy policy========= */}
+            {/* ========Blog Details========= */}
             <section className="blog-details-page">
         <div className="container">
             <div className="row">
                 <div className="breadcrumb">
                     <ul>
                         <li><a href="/">addcoupons.com</a> /</li>
+                        <li><a href="/">electronics</a> /</li>
                         <li>Streamline your project management with protask</li>
                     </ul>
                 </div>
@@ -26,15 +27,15 @@ export default function blogDetails({ stores }) {
             <div className="row">
                 <div className="col-12 p-0">
                     <div className="searchBlog">
-                        <div class="dateCat">
-                            <span className="date">10 APR 2024</span>
-                            <span className="catg">Fashin</span>
+                        <div className="dateCat">
+                            <span className="catg">Electronics</span>
+                            <span className="catg">Gadget</span>
                         </div>
                         <div className="searchBox">
                             <form action="#noWhere">
                                 <input type="search" searchmode="search" className="form-control" placeholder="Search blog"/>
                                 <button>
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"  viewBox="0 0 16 16">
+                                    <svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" className="bi bi-search" viewBox="0 0 16 16">
                                         <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
                                       </svg>
                                 </button>
@@ -46,20 +47,22 @@ export default function blogDetails({ stores }) {
         </div>
         <div className="container">
             <div className="row blogBox">
-                <div className="col-md-8 p-0">
+                <div className="col-lg-8 p-0">
                     <div className="blogContent">
                         <div>
-                            <h1 className="blogTitle">Streamline your project management with protask.</h1>
+                            <h1 className="blogTitle">Tune into Perfection With Best Headphones Under 10000 in India</h1>
                         </div>
                         <div className="autorbox">
                             <div className="authorImg">
-                                <img src="https://secure.gravatar.com/avatar/ec0a6ac9bd172932148a187240330fd8?s=450&d=mm&r=g" width="38" height="38" alt="Blog Author" title="Blog Author"/>
+                                <img src="https://secure.gravatar.com/avatar/75aacdb255678c7466b8914d655375eb?s=128&d=mm&r=g" width="38" height="38" alt="Blog Author" title="Blog Author"/>
                             </div>
-                           <span className="authorName">Freida McFadden</span>
+                            <div className="d-flex flex-column">
+                                 <span className="authorName">Megha F. Kennedy</span>
+                                <span className="date">29 OCT 2024</span>
+                            </div>
+                        
                         </div>
-                        <div className="firstImage">
-                            <img src="./images/amazzon-sale.webp" alt=""/>
-                        </div>
+                      
                         <div className="blogcontentData">
                             <p className="blogPara">
                                 In India, it is common for businesses to set up shop or enhance their existing business to increase sales during the festive season. And rightly so, since it is that one time of the year when orders pour in from every corner of the country. Companies constantly try to boost marketing, shipping quality, etc in hopes of getting the most out of this saga that lasts over a month.
@@ -251,7 +254,93 @@ export default function blogDetails({ stores }) {
                                 </tbody>
                             </table>
                         </div>
-                       
+                        {/* FAQS */}
+                        <div className="faqsBox">
+                            <h3>FAQs</h3>
+                            <div className="faqItem">
+                                <div className="faqQues">
+                                    <h4>Which is the no. 1 earphone brand?</h4>
+                                </div>
+                                <div className="faqAns">
+                                   <p>There isn’t a definitive “no. 1” earphone brand, as it varies by market and user preference. However, brands like Sony, Marshall, and boAt are known for offering the best headphones under 10000 in India.</p>
+                                </div>
+                            </div>
+                            <div className="faqItem">
+                                <div className="faqQues">
+                                    <h4>Are cheap headphones better?</h4>
+                                </div>
+                                <div className="faqAns">
+                                   <p>Cheap headphones can offer decent sound quality for casual listening, but they often lack durability, advanced features, and sound fidelity compared to higher-end options.</p>
+                                </div>
+                            </div>
+                            <div className="faqItem">
+                                <div className="faqQues">
+                                    <h4>Do gamers use headphones?</h4>
+                                </div>
+                                <div className="faqAns">
+                                   <p>Yes, gamers commonly use headphones to enhance their overall gaming experience by improving sound immersion, facilitating clear communication with teammates, and picking up audio cues.</p>
+                                </div>
+                            </div>
+                            <div className="faqItem">
+                                <div className="faqQues">
+                                    <h4>Is Zebronics a good brand?</h4>
+                                </div>
+                                <div className="faqAns">
+                                   <p>Zebronics is considered a reliable brand in India. It offers a range of affordable audio products with decent performance. While it may not compete with premium brands, it provides good value for budget-conscious consumers.</p>
+                                </div>
+                            </div>
+                            <div className="faqItem">
+                                <div className="faqQues">
+                                    <h4>What should I consider when buying headphones under ₹10,000?</h4>
+                                </div>
+                                <div className="faqAns">
+                                   <p>When purchasing headphones in this price range, consider factors such as sound quality, comfort, battery life, connectivity options (wired or wireless), noise cancellation features, and durability.</p>
+                                </div>
+                            </div>
+                        </div>
+                        {/* Related Article */}
+                        <div className="retatedArticle">
+                            <h3>Related Articles</h3>
+                            <div className="row">
+                                <div className="col-lg-4 col-md-6">
+                                    <a className="articleSnippet" href="#">
+                                        <img src="https://asset20.ckassets.com/blog/wp-content/uploads/sites/5/2024/10/Best-Gaming-Headphones-Under-2000.jpg" alt=""/>   
+                                        <h4>8 Best Gaming Headphones Under 2000: Get Game-Ready on Budget!</h4>
+                                    </a>
+                                </div>
+                                <div className="col-lg-4 col-md-6">
+                                    <a className="articleSnippet" href="#">
+                                        <img src="https://asset20.ckassets.com/blog/wp-content/uploads/sites/5/2023/08/Best-TVs-in-India.jpg" alt=""/>   
+                                        <h4>10 Best Soundbars Under 15000 in India for Epic Home Audio</h4>
+                                    </a>
+                                </div>
+                                <div className="col-lg-4 col-md-6">
+                                    <a className="articleSnippet" href="#">
+                                        <img src="https://asset20.ckassets.com/blog/wp-content/uploads/sites/5/2024/10/best-soundbars-under-15000.jpg" alt=""/>   
+                                        <h4>8 Best Sony Headphones in India: Choose Your Sound Style!</h4>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="sidebar">
+                            <div className="newsLetterBox">
+                                <h4 className="sidebarHeading">Daily Discount Upadte</h4>
+                                <p>Unlock exclusive discounts, personalized deals, and early access to limited-time offers by subscribing to our daily newsletter. Join a community of addCoupons and never miss out on savings again. Sign up now to start saving and make every purchase count!</p>
+                                <form action="NoWhere">
+                                    <div className="inputBox">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-envelope" viewBox="0 0 16 16">
+                                            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"/>
+                                        </svg>
+                                        <input type="email" className="form-control" placeholder="Your Email" required/>
+                                    </div>
+                                    <div className="consent">
+                                        <small>We care about your data. Read our <a href="#">privacy policy</a> for more information. </small>
+                                    </div>
+                                    <button>Subscribe</button>
+                                </form>
+                            </div>
+                        </div>
+
                         <div className="commentbox">
                             <div className="row comment mx-auto">
                                 <h3>Leave a Reply</h3>
@@ -260,68 +349,63 @@ export default function blogDetails({ stores }) {
                             <div className="row input mx-auto">
                                 <form className="d-block" role="post">
                                     <textarea name="" className="col-sm-12 col-md-10 col-lg-10 d-block" rows="10" placeholder="Input your thought ..." required></textarea>
-                                    <label for="name" className="d-block"><i class="fa-regular fa-user"></i> Name <span>*</span></label>
-                                    <input type="text" placeholder="Name" required class="col-sm-12 col-md-10 col-lg-10 d-block"/>
-                                    <label for="email" className="d-block"><i class="fa-regular fa-envelope"></i> Email <span>*</span></label>
+                                    <label for="name" className="d-block"><i className="fa-regular fa-user"></i> Name <span>*</span></label>
+                                    <input type="text" placeholder="Name" required className="col-sm-12 col-md-10 col-lg-10 d-block"/>
+                                    <label for="email" className="d-block"><i className="fa-regular fa-envelope"></i> Email <span>*</span></label>
                                     <input type="email" className="col-sm-12 col-md-10 col-lg-10 d-block" placeholder="Enter your email address" required/>
-                                    <label for="url" className="d-block"><i class="fa-solid fa-globe"></i> Website</label>
+                                    <label for="url" className="d-block"><i className="fa-solid fa-globe"></i> Website</label>
                                     <input type="text" className="col-sm-12 col-md-10 col-lg-10 d-block" placeholder="website url"/>
                                     <button type="submit" onclick="">Post Comment</button>
                                 </form>
                             </div>
                         </div>
                     </div>
-
                 </div>
-                <div className="col-md-4 p-0">
-                    <div className="sidebar">
-                        <div className="newsLetterBox">
-                            <h4 className="sidebarHeading">Daily Discount Upadte</h4>
-                            <p>Unlock exclusive discounts, personalized deals, and early access to limited-time offers by subscribing to our daily newsletter. Join a community of addCoupons and never miss out on savings again. Sign up now to start saving and make every purchase count!</p>
-                            <form action="NoWhere">
-                                <div className="inputBox">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
-                                        <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"/>
-                                    </svg>
-                                    <input type="email" class="form-control" placeholder="Your Email" required/>
-                                </div>
-                                <div className="consent">
-                                    <small>We care about your data. Read our <a href="#">privacy policy</a> for more information. </small>
-                                </div>
-                                <button>Subscribe</button>
-                            </form>
+               {/* ==================== */}
+                <div className="col-lg-4 p-0">
+                    <aside className="sidebar">
+                        <div className="sidebarFeaturedImg">
+                            <a href="#">
+                                <img src="https://asset20.ckassets.com/blog/wp-content/uploads/sites/5/2024/07/axis-flipkart-credit-card-350x350.png" alt="featuredImg"/>
+                            </a>
                         </div>
                         <div className="recentPost">
-                            <h4 className="sidebarHeading">Recent Posts</h4>
-                            <a href="./blog-details.html" class="recentLink">
-                                <div className="authorImg">
-                                    <img src="https://secure.gravatar.com/avatar/ec0a6ac9bd172932148a187240330fd8?s=450&d=mm&r=g" width="38" height="38" alt="Blog Author" title="Blog Author"/>
+                            <h4 className="sidebarHeading">Also Read</h4>
+                            <a href="/" className="recentLink">
+                                <div className="featureImg">
+                                    <img src="https://asset20.ckassets.com/blog/wp-content/uploads/sites/5/2024/10/Best-Headphones-Under-10000-in-India-100x53.jpg" width="100" alt="blog-imgage" title="Feture-Image"/>
                                 </div>
                                 <div>
-                                     <h2 className="recentTitle">Streamline your project management with protask.</h2>
-                                     <p className="recentDesc">In India, it is common for businesses to set up shop or enhance their existing business to increase sales during the festive season.</p>
+                                     <h2 className="recentTitle">8 Best Gaming Headphones Under 2000: Get Game-Ready on Budget!</h2>
                                 </div>
                             </a>
-                            <a href="./blog-details.html" className="recentLink">
-                                <div className="authorImg">
-                                    <img src="https://secure.gravatar.com/avatar/ec0a6ac9bd172932148a187240330fd8?s=450&d=mm&r=g" width="38" height="38" alt="Blog Author" title="Blog Author"/>
+                            <a href="/" className="recentLink">
+                                <div className="featureImg">
+                                    <img src="https://asset20.ckassets.com/blog/wp-content/uploads/sites/5/2024/10/Best-Gaming-Headphones-Under-2000-100x53.jpg" width="100" alt="blog-imgage" title="Feture-Image"/>
                                 </div>
                                 <div>
-                                     <h2 className="recentTitle">Streamline your project management with protask.</h2>
-                                     <p className="recentDesc">In India, it is common for businesses to set up shop or enhance their existing business to increase sales during the festive season.</p>
+                                     <h2 className="recentTitle">10 Best Soundbars Under 15000 in India for Epic Home Audio</h2>
                                 </div>
                             </a>
-                            <a href="./blog-details.html" className="recentLink">
-                                <div className="authorImg">
-                                    <img src="https://secure.gravatar.com/avatar/ec0a6ac9bd172932148a187240330fd8?s=450&d=mm&r=g" width="38" height="38" alt="Blog Author" title="Blog Author"/>
+                            <a href="/" className="recentLink">
+                                <div className="featureImg">
+                                    <img src="https://asset20.ckassets.com/blog/wp-content/uploads/sites/5/2024/10/best-soundbars-under-15000-100x53.jpg" width="100" alt="blog-imgage" title="Feture-Image"/>
                                 </div>
                                 <div>
-                                     <h2 className="recentTitle">Streamline your project management with protask.</h2>
-                                     <p className="recentDesc">In India, it is common for businesses to set up shop or enhance their existing business to increase sales during the festive season.</p>
+                                     <h2 className="recentTitle">Tune into Perfection With Best Headphones Under 10000 in India</h2>
                                 </div>
                             </a>
+                            <a href="/" className="recentLink">
+                                <div className="featureImg">
+                                    <img src="https://asset20.ckassets.com/blog/wp-content/uploads/sites/5/2021/06/Water-Heater.jpg" width="100" alt="blog-imgage" title="Feture-Image"/>
+                                </div>
+                                <div>
+                                     <h2 className="recentTitle">8 Best Sony Headphones in India: Choose Your Sound Style!</h2>
+                                </div>
+                            </a>
+
                         </div>
-                    </div>
+                    </aside>
                 </div>
             </div>
         </div>
