@@ -1,5 +1,5 @@
 import Image from "next/image";
-import "@/styles/blog.css";
+import "@/styles/blogs.css";
 import { NextSeo } from "next-seo";
 import Link from "next/link";
 import Router from "next/router";
