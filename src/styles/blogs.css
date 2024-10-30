@@ -1,5 +1,5 @@
 .blog-details-page{
-    padding: 6rem 1rem;
+    padding: 2rem 0;
 }
 .container{
    
@@ -86,9 +86,7 @@
     .blog-details-page .searchBlog{
         flex-direction: column-reverse;
     }
-    .blog-details-page{
-        padding: 6rem .8rem;
-    }
+   
     .blog-details-page .searchBlog .searchBox{
         width: 100%;
         margin-bottom: 1rem;
@@ -621,6 +619,9 @@
    text-decoration: underline;
  }
  /* blog carosel */
+ .blogCarosel{
+    margin-bottom: 2rem;
+ }
 
  .blogCarosel .carousel-control-next{
    justify-content: right;
@@ -685,6 +686,15 @@
 .carousel-item.active .carousel-caption {
     opacity: 1;
 }
+.blogCarosel .carousel-item img{
+    width: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    display: block;
+  }
+ .carousel-control-prev .visually-hidden,  .carousel-control-next .visually-hidden{
+    display: none;
+ }
 .blogPagination a svg{
     width: 18px;
     height: 18px;
@@ -732,3 +742,11 @@
    text-decoration: underline;
    color: #222;
   }
+  @media(min-width:991px){
+    .xpadding{
+        padding-right: 2rem;
+    }
+  }
+  .xpadding{
+    padding-left: 0;
+}

@@ -335,3 +335,6 @@ font-family: 'Montserrat', sans-serif;
     font-size: 17px;
   }
 }
+.pageHeader .nav-item .nav-link:hover{
+  color: #ed7430;
+}

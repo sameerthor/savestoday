@@ -14,8 +14,8 @@ export default function allBlogs({ stores }) {
             <section className="blog-details-page">
                 <div className="container">
                     <div className="row blogBox">
-                        <div className="col-lg-9 pe-4 mb-4">
-                            <div  id="blogCarousel" className="blogCarosel carousel slide mb-5" data-bs-ride="carousel">
+                        <div className="col-lg-9 xpadding">
+                            <div  id="blogCarousel" className="blogCarosel carousel slide" data-bs-ride="carousel">
                                 <div className="carousel-inner">
                                 <div className="carousel-item active">
                                     <img src="https://asset20.ckassets.com/blog/wp-content/uploads/sites/5/2024/09/Myntra-upcoming-sales.jpg" className="d-block w-100" alt="myntra Sale"/>
