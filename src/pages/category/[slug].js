@@ -82,7 +82,8 @@ function Category({ category, categories }) {
                                                         <img src={`${item.image}`} alt="store" width={80} height={80} />
                                                     </div>
                                                     <div className="dealCount">
-                                                        <span>View {item.coupon_set.length} Coupons</span>
+                                                        {/* <span>View {item.title} {item.coupon_set.length} Coupons</span> */}
+                                                        <span>{item.title}</span>
                                                     </div>
                                                 </Link>
                                             </div>
