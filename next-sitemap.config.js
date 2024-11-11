@@ -4,10 +4,21 @@ module.exports = {
     generateRobotsTxt: false, // (optional)
     generateIndexSitemap: false,
     transform: async (config, path) => {
-        return {
+        if(path.includes("stores") || path.includes("category") || path.includes("sitemap") )
+        {      return {
             loc: path, // => this will be exported as http(s)://<config.siteUrl>/<path>
-            changefreq: "weekly",
+            changefreq: "daily",
+            priority:1,
             lastmod: config.autoLastmod ? new Date().toISOString().split('T')[0] : undefined,
         }
+
+        }else{
+            return {
+                loc: path, // => this will be exported as http(s)://<config.siteUrl>/<path>
+                changefreq: "weekly",
+                lastmod: config.autoLastmod ? new Date().toISOString().split('T')[0] : undefined,
+            }
+        }    
+     
     }
 }
