@@ -6,8 +6,8 @@ module.exports = {
     transform: async (config, path) => {
         return {
             loc: path, // => this will be exported as http(s)://<config.siteUrl>/<path>
-            changefreq: "daily",
-            lastmod: config.autoLastmod ? new Date().toISOString().split('T')[0]+"T00:00:00-05:00" : undefined,
+            changefreq: "weekly",
+            lastmod: config.autoLastmod ? new Date().toISOString().split('T')[0] : undefined,
         }
     }
 }
