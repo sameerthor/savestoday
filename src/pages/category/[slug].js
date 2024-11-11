@@ -79,10 +79,11 @@ function Category({ category, categories }) {
                                             <div className='col-md-3'>
                                                 <Link href={`/${item.slug}`} className="storeBox">
                                                     <div className="imgBox">
-                                                        <img src={`${item.image}`} alt="" />
+                                                        <img src={`${item.image}`} alt="store" width={80} height={80} />
                                                     </div>
                                                     <div className="dealCount">
-                                                        <span>View {item.coupon_set.length} Coupons</span>
+                                                        {/* <span>View {item.title} {item.coupon_set.length} Coupons</span> */}
+                                                        <span>{item.title}</span>
                                                     </div>
                                                 </Link>
                                             </div>

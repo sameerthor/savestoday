@@ -545,9 +545,7 @@
 
 .storeBox .imgBox img {
     display: block;
-    height: 100px;
     padding: .5rem;
-    width: 100%;
     object-fit: contain;
     margin: auto;
 }
