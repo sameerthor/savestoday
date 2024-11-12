@@ -20,5 +20,8 @@ module.exports = {
             }
         }    
      
+    },
+    robotsTxtOptions:{
+        additionalSitemaps: [ 'https://www.savestoday.com/image-sitemap.xml']
     }
 }

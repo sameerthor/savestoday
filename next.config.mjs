@@ -26,15 +26,15 @@ const nextConfig = {
 
       if (hasFound) break
     }
-    
+
     return config;
-  }//,
-  // rewrites: async () => [
-  //   {
-  //     source: '/savestoday-sitemap.xml',
-  //     destination: '/sitemap',
-  //   }
-  // ]
+  },
+  rewrites: async () => [
+    {
+      source: '/image-sitemap.xml',
+      destination: '/sitemap',
+    }
+  ]
 };
 
 export default nextConfig;
