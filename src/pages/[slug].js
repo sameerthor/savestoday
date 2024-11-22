@@ -1,5 +1,5 @@
 import "@/styles/store.css";
-import React, { lazy, useState } from 'react'
+import React, { lazy, useState,useEffect } from 'react'
 import Image from 'next/image'
 import _ from 'lodash'
 import Coupon from "@/components/coupon";
@@ -110,7 +110,33 @@ function Store({ store, relStores, simCat }) {
             }
         })
     }
+   
 
+    const [isMobile, setIsMobile] = useState(false);
+
+    useEffect(() => {
+      const handleResize = () => {
+        setIsMobile(window.innerWidth <= 500);
+      };
+  
+      // Check on initial render
+      handleResize();
+  
+      // Add event listener for resizing
+      window.addEventListener("resize", handleResize);
+      return () => {
+        window.removeEventListener("resize", handleResize);
+      };
+    }, []);
+  
+    const storeTitleStyle = {
+      fontSize: isMobile ? "1.2rem" : "1.45rem",
+      marginRight: isMobile ? "0.2rem" : "1rem",
+      color: "#2e2e2e",
+      fontWeight: 600,
+      marginBottom: "0.5rem",
+      lineHeight: 1.4,
+    };
     return (
         <>
 
@@ -203,7 +229,7 @@ function Store({ store, relStores, simCat }) {
                     <div className="row storeHeader">
                         <div className="col-9 p-0">
                             <div>
-                                <h1 className="storeTitle">
+                                <h1  style={storeTitleStyle}>
                                     {store.store_h1.replaceAll("%%Year%%", moment().format('YYYY')).replaceAll("%%CurrentMonth%%", moment().format('MMMM'))}
                                 </h1>
                                 <div className="avlDeals">
