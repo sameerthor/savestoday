@@ -10,8 +10,9 @@ export default function Header() {
     const router = useRouter();
 
     const [filterdata, setFilterdata] = useState([]);
-    useEffect(() => {
-
+   
+function fetchData()
+{
         axios.get('https://backend.savestoday.com/store-search/')
             .then(function (response) {
                 var d = response.data.map(item => { return { key: item.slug, value: item.title } })
@@ -21,7 +22,7 @@ export default function Header() {
                 // handle error
                 console.log(error);
             })
-    }, []);
+        }
     return (
         <>
             <nav className="navbar navbar-expand-lg pageHeader">
@@ -59,6 +60,7 @@ export default function Header() {
                             value=""
                             className="d-flex navbarSearch"
                             data={filterdata}
+                            onFocus={()=>fetchData()}
                             clearOnSelect={true}
                             onSelect={(record) => router.push('/' + record.item.key)}
                             leftIcon={<svg
