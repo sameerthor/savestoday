@@ -86,9 +86,8 @@ export default function Stores({ stores }) {
 
 export async function getStaticProps({ params }) {
 
-   // const res = await fetch(`https://backend.savestoday.com/stores`)
-  //  const stores = await res.json()
-    const stores = [];
+   const res = await fetch(`https://backend.savestoday.com/store-page`)
+   const stores = await res.json()
 
     return {
         props: {
