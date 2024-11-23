@@ -1,5 +1,5 @@
 import "@/styles/store.css";
-import React, { lazy, useState,useEffect } from 'react'
+import React, { lazy, useState, useEffect } from 'react'
 import Image from 'next/image'
 import _ from 'lodash'
 import Coupon from "@/components/coupon";
@@ -20,26 +20,7 @@ const RatingBox = dynamic(() => import('@/components/ratingbox'),
 import Link from "next/link";
 
 function Store({ store, relStores, simCat }) {
-   // console.log(simCat)
-    const store_names = relStores.filter(f => f.id !== store.id).slice(0, 2).map(item => `<a href="/${item.slug}">${item.title}</a>`)
-    store.store_description = store.store_description.replaceAll("%%storename%%", store.title);
-    store.store_description = store.store_description.replaceAll("%pe­rcentage% off", store.coupon_set[0].title);
-    store.store_description = store.store_description.replaceAll("%percentage% off", store.coupon_set[0].title);
-    store.store_description = store.store_description.replaceAll("%pe­rcentage% Off", store.coupon_set[0].title);
-    store.store_description = store.store_description.replaceAll("%percentage% Off", store.coupon_set[0].title);
-    store.store_description = store.store_description.replaceAll("%pe­rcentage% OFF", store.coupon_set[0].title);
-    store.store_description = store.store_description.replaceAll("%percentage% OFF", store.coupon_set[0].title);
-    store.store_description = store.store_description.replaceAll("%pe­rcentage%", store.coupon_set[0].title);
-    store.store_description = store.store_description.replaceAll("%percentage%", store.coupon_set[0].title);
-    store.store_description = store.store_description.replace(/XX/, store.coupon_set.length);
-    store.extra_info = store.extra_info.replace('XX', store.coupon_set.length);
-    store.store_description = store.store_description.replace(/XXX/, store.coupon_set.filter(x => x.coupon_type == 'code').length > 0 ? store.coupon_set.filter(x => x.coupon_type == 'code')[0].coupon_code : "");
-    store.store_description = store.store_description.replaceAll("%%currentmonth%%", moment().format('MMMM'));
-    store.store_description = store.store_description.replaceAll("%%curre­ntmonth%%", moment().format('MMMM'));
-    store.store_description = store.store_description.replaceAll("%%currentyear%%", moment().format('YYYY'));
-    store.store_description = store.store_description.replaceAll("currentyear%%", moment().format('YYYY'));
-    store.store_description = store.store_description.replaceAll(/%%categorystore%% and %%categorystore%%|%categorystore%, %categorystore%, and %categorystore%|%categorystore%, %categorystore%|%categorystore% and %categorystore%|%%categorystore%%, %%categorystore%%|%categorystore%, %categorystore%, %categorystore%|%categorystore% %categorystore%, %categorystore%|%categorystore% %categorystore% %categorystore%|%categorystore% %categorystore% and %categorystore%/gi, store_names.join(", "));
-
+    // console.log(simCat)
     var store_rating = 0;
     var total_ratings = 0;
     if (store.rating.length > 0) {
@@ -110,32 +91,32 @@ function Store({ store, relStores, simCat }) {
             }
         })
     }
-   
+
 
     const [isMobile, setIsMobile] = useState(false);
 
     useEffect(() => {
-      const handleResize = () => {
-        setIsMobile(window.innerWidth <= 500);
-      };
-  
-      // Check on initial render
-      handleResize();
-  
-      // Add event listener for resizing
-      window.addEventListener("resize", handleResize);
-      return () => {
-        window.removeEventListener("resize", handleResize);
-      };
+        const handleResize = () => {
+            setIsMobile(window.innerWidth <= 500);
+        };
+
+        // Check on initial render
+        handleResize();
+
+        // Add event listener for resizing
+        window.addEventListener("resize", handleResize);
+        return () => {
+            window.removeEventListener("resize", handleResize);
+        };
     }, []);
-  
+
     const storeTitleStyle = {
-      fontSize: isMobile ? "1.2rem" : "1.45rem",
-      marginRight: isMobile ? "0.2rem" : "1rem",
-      color: "#2e2e2e",
-      fontWeight: 600,
-      marginBottom: "0.5rem",
-      lineHeight: 1.4,
+        fontSize: isMobile ? "1.2rem" : "1.45rem",
+        marginRight: isMobile ? "0.2rem" : "1rem",
+        color: "#2e2e2e",
+        fontWeight: 600,
+        marginBottom: "0.5rem",
+        lineHeight: 1.4,
     };
     return (
         <>
@@ -229,7 +210,7 @@ function Store({ store, relStores, simCat }) {
                     <div className="row storeHeader">
                         <div className="col-9 p-0">
                             <div>
-                                <h1  style={storeTitleStyle}>
+                                <h1 style={storeTitleStyle}>
                                     {store.store_h1.replaceAll("%%Year%%", moment().format('YYYY')).replaceAll("%%CurrentMonth%%", moment().format('MMMM'))}
                                 </h1>
                                 <div className="avlDeals">
@@ -269,8 +250,8 @@ function Store({ store, relStores, simCat }) {
                      <a href="#">Coupons (20)</a>
                      <a href="#">Deal (7)</a>
                   </div> */}
-                                {store.coupon_set.length>0 && store.coupon_set.sort(function (a, b) {
-                                     return a.coupon_type!==null?a.coupon_type.localeCompare(b.coupon_type):a;
+                                {store.coupon_set.length > 0 && store.coupon_set.sort(function (a, b) {
+                                    return a.coupon_type !== null ? a.coupon_type.localeCompare(b.coupon_type) : a;
                                 }).map((item, index) =>
                                     <Coupon key={index} store_data={_.omit(store, 'coupon_set')} coupon_data={item} />
                                 )}
@@ -449,7 +430,7 @@ export async function getStaticProps({ params }) {
             return coupon.title = "Best Deal";
         }
     });
-   
+
     var simCat = [];
     if (store.category[0]) {
         const resRelStores = await fetch(`https://backend.savestoday.com/stores/?category__id=${store.category[0].id}&ordering=-id`)
@@ -464,6 +445,26 @@ export async function getStaticProps({ params }) {
     } else {
         var relStores = [];
     }
+    const store_names = relStores.filter(f => f.id !== store.id).slice(0, 2).map(item => `<a href="/${item.slug}">${item.title}</a>`)
+    store.store_description = store.store_description.replaceAll("%%storename%%", store.title);
+    store.store_description = store.store_description.replaceAll("%pe­rcentage% off", store.coupon_set[0].title);
+    store.store_description = store.store_description.replaceAll("%percentage% off", store.coupon_set[0].title);
+    store.store_description = store.store_description.replaceAll("%pe­rcentage% Off", store.coupon_set[0].title);
+    store.store_description = store.store_description.replaceAll("%percentage% Off", store.coupon_set[0].title);
+    store.store_description = store.store_description.replaceAll("%pe­rcentage% OFF", store.coupon_set[0].title);
+    store.store_description = store.store_description.replaceAll("%percentage% OFF", store.coupon_set[0].title);
+    store.store_description = store.store_description.replaceAll("%pe­rcentage%", store.coupon_set[0].title);
+    store.store_description = store.store_description.replaceAll("%percentage%", store.coupon_set[0].title);
+    store.store_description = store.store_description.replace(/XX/, store.coupon_set.length);
+    store.extra_info = store.extra_info.replace('XX', store.coupon_set.length);
+    store.store_description = store.store_description.replace(/XXX/, store.coupon_set.filter(x => x.coupon_type == 'code').length > 0 ? store.coupon_set.filter(x => x.coupon_type == 'code')[0].coupon_code : "");
+    store.store_description = store.store_description.replaceAll("%%currentmonth%%", moment().format('MMMM'));
+    store.store_description = store.store_description.replaceAll("%%curre­ntmonth%%", moment().format('MMMM'));
+    store.store_description = store.store_description.replaceAll("%%currentyear%%", moment().format('YYYY'));
+    store.store_description = store.store_description.replaceAll("currentyear%%", moment().format('YYYY'));
+    store.store_description = store.store_description.replaceAll(/%%categorystore%% and %%categorystore%%|%categorystore%, %categorystore%, and %categorystore%|%categorystore%, %categorystore%|%categorystore% and %categorystore%|%%categorystore%%, %%categorystore%%|%categorystore%, %categorystore%, %categorystore%|%categorystore% %categorystore%, %categorystore%|%categorystore% %categorystore% %categorystore%|%categorystore% %categorystore% and %categorystore%/gi, store_names.join(", "));
+
+
     return {
         props: {
             store,
