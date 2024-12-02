@@ -55,6 +55,9 @@ export default function Stores({ stores }) {
                                         ))}
 
                                 </ul>
+                                <div className="loadMoreCoupon text-center">
+                                                <button>Load More</button>
+                                </div>
                             </div>
                             {alphabet.split("").map((c) => {
                                 return (
@@ -70,7 +73,11 @@ export default function Stores({ stores }) {
                                                     ))}
 
                                             </ul>
+                                            <div className="loadMoreCoupon text-center">
+                                                <button>Load More</button>
+                                            </div>
                                         </div>
+                
 
                                     </>
                                 );

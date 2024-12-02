@@ -22,9 +22,9 @@ export default function App({ Component, pageProps }) {
       {/* <GoogleAnalytics gaId="G-HS1M2KPJTL" /> */}
       <Script
         src="https://www.googletagmanager.com/gtag/js?id=G-HS1M2KPJTL"
-        strategy="lazyOnload"
+        strategy="lazyOnload" defer
       />
-      <Script id="google-analytics" strategy="lazyOnload">
+      <Script id="google-analytics" strategy="lazyOnload" defer>
         {`
           window.dataLayer = window.dataLayer || [];
           function gtag(){window.dataLayer.push(arguments);}
