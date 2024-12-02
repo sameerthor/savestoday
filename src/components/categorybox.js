@@ -7,7 +7,7 @@ export default function CategpryBox() {
 
     const [categories, setFilterdata] = useState([]);
     useEffect(() => {
-        axios.get('https://backend.savestoday.com/categories/')
+        axios.get('https://backend.savestoday.com/categories&no_pagination=true')
             .then(function (response) {
                 setFilterdata(response.data);
             })
