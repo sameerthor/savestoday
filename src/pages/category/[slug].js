@@ -73,7 +73,7 @@ function Category({ category, categories }) {
                                       
                                     </div>
                                 </div>
-                                <div className="col-lg-9 p-0 mb">
+                                <div className="col-lg-9 p-0 mb catList">
                                     <div className="row">   
                                         {category.store_set.map(item =>
                                             <div className='col-md-3'>
@@ -88,14 +88,9 @@ function Category({ category, categories }) {
                                                 </Link>
                                             </div>
                                         )
-
                                         }
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        {/* ============= */}
-                        {/* <div className="pagination">
+                                        <div class="col-12">
+                                        <div className="pagination">
                             <ul>
                                 <li>
                                     <a href="#" className="active">
@@ -133,7 +128,13 @@ function Category({ category, categories }) {
                                     </a>
                                 </li>
                             </ul>
-                        </div> */}
+                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        {/* ============= */}
                     </div>
                 </div>
             </section>

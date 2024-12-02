@@ -1315,3 +1315,14 @@ a.verifiedCoupon span {
   }
   
 }
+.loadMoreCoupon button{
+  border: none;
+  outline: none;
+  background-color: #ed7430;
+  color: #fff;
+  font-weight: 500;
+  padding: .5rem 1rem;
+  border-radius: 4px;
+  font-size: .9rem;
+  cursor: pointer;
+}

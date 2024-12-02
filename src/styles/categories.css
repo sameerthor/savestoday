@@ -343,7 +343,7 @@
 }
 .pagination ul li a{ 
     padding: .3rem 1rem;
-    border: 1px solid #2f3c97;
+    border: 1px solid #ed7430;
     display: inline-block;
     margin: 0 .5rem;
     border-radius: 3px;
@@ -353,7 +353,7 @@
     cursor: pointer;
 }
 .pagination ul li a.active{
-    background-color: #2f3c97;
+    background-color: #ed7430;
     color: #fff;
 }
 
@@ -573,4 +573,11 @@
 }
 .sidebarWidget .verifiedBox p svg{
    margin-right: .2rem;
+}
+.catList{
+    max-height: fit-content;
+}
+.row{
+    max-width: 100%;
+    margin: auto;
 }
