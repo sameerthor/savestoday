@@ -99,7 +99,7 @@ function Category({ category, categories }) {
                                     ) : (
                                         <div className="row">
                                             {storeData.map(item => (
-                                                <div className='col-md-3' key={item.slug}>
+                                                <div className='col-md-4 col-lg-3 col-sm-6 catContainer' key={item.slug}>
                                                     <Link href={`/${item.slug}`} className="storeBox">
                                                         <div className="imgBox">
                                                             <img src={item.image} alt={item.title} width={80} height={80} />

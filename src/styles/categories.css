@@ -340,17 +340,25 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    overflow: auto;
+}
+.pagination ul::-webkit-scrollbar{
+    display: none;
 }
 .pagination ul li a{ 
-    padding: .3rem 1rem;
     border: 1px solid #ed7430;
-    display: inline-block;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
     margin: 0 .5rem;
     border-radius: 3px;
     font-weight: 500;
     color: #2e2e2e;
     text-decoration: none;
     cursor: pointer;
+    font-size: .85rem;
+    height: 1.6rem;
+    width: 1.6rem;
 }
 .pagination ul li a.active{
     background-color: #ed7430;
@@ -461,7 +469,6 @@
     .subscribeBox .subscribeBoxInner .subcribeForm{
         padding: 3rem 1rem;
     }
-    
  }
 
  .pageHeading{
@@ -534,6 +541,7 @@
     border-radius: .5rem;
     border: 1px solid #e2e2e2;
     background-color: #fff;
+    max-width: 100%;
 }
 
 .storeBox .imgBox {
@@ -561,7 +569,8 @@
     padding: .65rem 0;
     border: 1px solid #e2e2e2;
     border-bottom: none;
-    background-color: #f0604a18
+    background-color: #f0604a18;
+    max-width: 100%;
 }
 
 .storeBox .dealCount span {
@@ -580,4 +589,8 @@
 .row{
     max-width: 100%;
     margin: auto;
+}
+.catContainer{
+    justify-content: center;
+    display: flex;
 }
