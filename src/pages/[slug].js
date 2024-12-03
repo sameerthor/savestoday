@@ -418,7 +418,7 @@ function Store({ store, relStores, simCat }) {
 // It may be called again, on a serverless function, if
 // revalidation is enabled and a new request comes in
 export async function getStaticProps({ params }) {
-    const res = await fetch('https://backend.savestoday.com/stores/' + params.slug)
+    const res = await fetch('https://backend.savestoday.com/stores/' + params.slug+'/')
     var store = await res.json()
     if (store.detail) {
         return {
