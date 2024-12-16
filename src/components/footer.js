@@ -88,10 +88,10 @@ export default function Footer() {
                                     <a href="/contact-us">Contact Us</a>
                                 </li>
                                 <li className="pb-3">
-                                    <a href="/faqs">FAQs</a>
+                                    <a href="#">FAQs</a>
                                 </li>
                                 <li className="pb-3">
-                                    <a href="/about">about SavesToday</a>
+                                    <a href="#">about SavesToday</a>
                                 </li>
                             </ul>
                         </div>
@@ -99,13 +99,13 @@ export default function Footer() {
                             <span className="pb-3 columnHeading"> Legal </span>
                             <ul className="list-style">
                                 <li className="pb-3">
-                                    <a href="/privacy-policy">Privacy Policy</a>
+                                    <a href="#">Privacy Policy</a>
                                 </li>
                                 <li className="pb-3">
-                                    <a href="terms-of-use">Terms of Use</a>
+                                    <a href="#">Terms of Use</a>
                                 </li>
                                 <li className="pb-3">
-                                    <a href="cookie-policy">Cookie Policy</a>
+                                    <a href="#">Cookie Policy</a>
                                 </li>
                             </ul>
                         </div>
