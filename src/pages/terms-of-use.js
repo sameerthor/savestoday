@@ -11,7 +11,7 @@ export default function termsOfUse({ stores }) {
                 description="Find the latest coupons and promo codes for your favorite stores. Our constantly updated discount codes and deals help you get instant savings. We have top stores, exclusive discounts, and verified codes for all your shopping needs!"
             />
             {/* ========privacy policy========= */}
-            <section className="sitePolicy">
+            {/* <section className="sitePolicy">
                 <div className="container">
                     <div className="row">
                         <div class="col-12">
@@ -73,7 +73,7 @@ export default function termsOfUse({ stores }) {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
         </>
     );
 }

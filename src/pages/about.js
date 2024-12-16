@@ -11,7 +11,7 @@ export default function about({ stores }) {
                 description="Find the latest coupons and promo codes for your favorite stores. Our constantly updated discount codes and deals help you get instant savings. We have top stores, exclusive discounts, and verified codes for all your shopping needs!"
             />
             {/* ========privacy policy========= */}
-            <section className="sitePolicy"> 
+            {/* <section className="sitePolicy"> 
                 <div className="container">                   
                     <div className="row">
                         <h1 className="text-center">Savestoday About Us </h1>
@@ -44,7 +44,7 @@ export default function about({ stores }) {
                         </p>
                     </div>
                 </div>  
-            </section>  
+            </section>   */}
         </>
     );
 }
